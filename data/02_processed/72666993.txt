@@ -1,0 +1,26 @@
+LOCATION: Petaling 
+COMPANY: ISJ TECHNOLOGY SDN. BHD. 
+JOB TITLE: Data Engineer 
+SALARY: RM 5,000 – RM 7,500 per month 
+DESCRIPTION: Develop data pipelines for data ingestion and transformation.
+Create and optimize data models for efficient storage and retrieval.
+Integrate data from various sources into unified datasets.
+Implement data quality checks and governance processes.
+Manage and optimize data infrastructure and databases.
+Design and manage ETL processes for data movement.
+Ensure data security and compliance with regulations.
+Collaborate with data scientists and analysts.
+Document data engineering processes and architectures.
+Bachelor’s degree in computer science or related field.
+At least 3 years of working experience in data engineering and ETL processes.
+Proficiency in Python, SQL, or Scala.
+Strong understanding of data modelling and warehousing.
+Familiarity with cloud-based data platforms (AWS, Azure, GCP).
+Analytical mindset and problem-solving skills.
+Excellent communication and teamwork abilities.
+What's your expected monthly basic salary?
+How many years' experience do you have as a Data Engineer?
+How many years' experience do you have using SQL queries?
+Have you worked in a role which requires experience with machine learning?
+Which of the following languages are you fluent in?
+How many years' experience do you have as an ETL Data Warehouse Programmer?

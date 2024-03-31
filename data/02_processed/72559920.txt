@@ -1,0 +1,10 @@
+LOCATION: Penang Island 
+COMPANY: Intradeco Sdn Bhd 
+JOB TITLE: IT Business Analyst 
+SALARY: MYR 5,000 - 7,000 
+DESCRIPTION: How many years' experience do you have as a business analyst?
+What's your expected monthly basic salary?
+Do you have experience working within a scrum agile team?
+How many years' experience do you have as an Information Technology Business Analyst?
+Have you worked in a role which requires a sound understanding of the software development lifecycle?
+Which of the following programming languages are you experienced in?

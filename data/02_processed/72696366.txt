@@ -1,0 +1,9 @@
+LOCATION: Kuala Lumpur 
+COMPANY: Devsoft Sdn Bhd 
+JOB TITLE: System Analyst 
+SALARY: RM 4,000 – RM 6,000 per month 
+DESCRIPTION: How many years' experience do you have as a systems analyst?
+How would you rate your Mandarin language skills?
+Which of the following Relational Database Management Systems (RDBMS) are you experienced with?
+Have you worked in a role which requires a sound understanding of the software development lifecycle?
+How many years' experience do you have using SQL queries?

@@ -1,0 +1,10 @@
+LOCATION: Seberang Perai 
+COMPANY: LAM RESEARCH INTERNATIONAL SDN. BHD. 
+JOB TITLE: Intern - Data Science 
+SALARY: RM 1,500 per month 
+DESCRIPTION: Based under Project Transition team.
+Experience in SQL and programming languages like phyton, R.
+Develop an automated dashboard via Power BI / Apps / Automate that enables report generation and compliments the decision-making process.
+The ability to take a vague problem and solve them in a structured, data driven method.
+Required to work and collaborate with internal cross functional teams.
+Degree in Data Science/Computer Science with knowledge in Excel/ VBA/ Power BI/ SQL.

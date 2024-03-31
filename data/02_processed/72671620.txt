@@ -1,0 +1,20 @@
+LOCATION: Kuala Lumpur 
+COMPANY: Affin Bank Berhad 
+JOB TITLE: Manager, RPA Developer 
+SALARY: RM 8,000 – RM 12,000 per month 
+DESCRIPTION: Design, develop, document, test and debug Robotic Process Automation application and maintenance of the bot and orchestration. Knowledge of core RPA development principles.
+Solid understanding of the application of Software Development Life Cycle, Agile Operating Model & Scrum methodology.
+Ability to troubleshoot issues to find the root cause and recommend solutions.
+Ensure the robots are 100% compliant with the required governance process and standards.
+Ability to work in a team environment.
+Proficiency in written and spoken English. Able to communicate in a clear and concise manner at various audience levels. Other language proficiency is a plus.
+Self-Starter who takes ownership and responsibility for projects and initiatives.
+Experience with Unit Testing, Test Driven Development, Functional Test, and other Testing activities.
+8-10 years’ experience in RPA and good knowledge and experience in developing through RPA tools.
+Successful track record of developing quality software products.
+Able to mentor junior developers.
+Familiarity with RPA from conception to deployment.
+Able to work independently with ownership mentality.
+Experience in Scrum/Agile development methodologies.
+Must have an optimal mix of business process, project management and IT Skills.
+Certified developers in UiPath / BluePrism.

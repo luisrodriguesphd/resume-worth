@@ -1,0 +1,36 @@
+LOCATION: Shah Alam/Subang 
+COMPANY: Accordia Global Sdn Bhd 
+JOB TITLE: Machine Learning Engineer (AI) 
+SALARY: RM 5,000 – RM 7,000 per month 
+DESCRIPTION: Design, develop, and deploy machine learning models for our AI assistants
+Work with data scientists and engineers to build and maintain our data pipelines and infrastructure
+Evaluate and improve the performance of our AI assistants
+Collaborate with product managers and designers to ensure that our AI assistants meet the needs of our customers
+Collaborate with a multi-functional agile team of data science, UX / UI design, product management, and engineering to build new features / products / services that delight our customers.
+Develop and create end-to-end machine learning feedback loop and integrate it into various customer interaction applications.
+Improve existing machine learning models both in terms of model performance and computing performance.
+Help drive code review, optimization, testing, and tooling to improve code quality and system reliability.
+Research and implement best practices to enhance existing machine learning infrastructure and process.
+Be part of an active group of data science and machine learning practitioners that shape the direction of machine learning and artificial intelligence of the organization.
+BS or higher in Computer Science, Computer Engineering or related technical fields involving Machine Learning or equivalent technical experience
+Strong analytical and problem-solving skills - Proven software development skills in multiple programming languages (e.g., Python, Golang, C, React, Angular)
+Experience with machine learning software packages (e.g., ChatGPT, Keras, scikit-learn, XGBoost, TensorFlow, NLTK, Caffe, Theano)
+Conversational platforms such as Rasa and Nuance Mix
+Familiar with LLM Model such as Chatgpt or Google's Bard
+Familiarity with container-based technologies (e.g., Docker, Kubernetes) and DevOps practices (e.g., code review, automated testing, CI / CD, logging, performance monitoring)
+Front-end technologies such as React and React Native (Nice to have)
+Familiar with Relational, NoSQL & Vector databases (MySQL, MongoDB, Weaviate, etc)
+Strong communication skills & collaborative mindset
+Experience with data processing tools (e.g., Hadoop, Apache Spark, Apache Beam) and Cloud platforms (e.g., AWS, Azure, GCP) considered a plus
+Competitive salary and benefits package
+Opportunity to work on challenging and innovative projects
+Collaborative and supportive work environment
+Opportunities for professional development and growth
+We are a team of passionate and innovative engineers who are committed to building the best possible AI assistants for our customers.
+We offer a collaborative and supportive work environment where everyone is valued and respected.
+We are committed to professional development and growth, and we offer our employees opportunities to learn and grow their skills.
+We offer a competitive salary and benefits package.
+If you are a talented and passionate Machine Learning Engineer who is looking for a challenging and rewarding opportunity, we encourage you to apply!
+Have you worked in a role which requires experience with machine learning?
+What's your expected monthly basic salary?
+How many years' experience do you have as a Machine Learning Engineer?

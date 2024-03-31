@@ -1,0 +1,15 @@
+LOCATION: Penang Island 
+COMPANY: UST Global (M) Sdn Bhd 
+JOB TITLE: Data Analyst 
+SALARY: RM 3,500 – RM 4,500 per month 
+DESCRIPTION: Pulling data from various database, analyzing it and aggregate it to enable and desired visualization
+Creating reports and dashboard by leveraging the existing tools or using Microsoft Power BI 
+Creating and maintaining dashboards, models, and data products
+Developing and maintaining databases, data systems – reorganizing data in a readable format Performing analysis to assess quality and meaning of data
+Bachelor's Degree in Industrial Engineering, Computer Science, Data Analysis, Supply Chain Analytics, Information Systems, or any other related field
+5+ years of experience in application analysis and design, business process and concepts
+5+ years hands on experience in: Power BI, Python, Excel 
+Able to analyzed and summarized data pulled from the databases, and data system by using Microsoft Power BI tool
+Able to automate and run live report onto selected tools and systems dates.
+What's your expected monthly basic salary?
+How much notice are you required to give your current employer?

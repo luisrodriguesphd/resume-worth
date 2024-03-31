@@ -1,0 +1,14 @@
+# to read conf and secrets
+python-dotenv
+
+# to build LLM Apps
+llmware
+chromadb
+
+# to build the user infertafe
+gradio
+
+# Autogenerate requirements.txt via pip-compile with Python 3.11 by the following command:
+#
+#    pip-compile -U --output-file=requirements.txt requirements.in
+#    pip-compile -U --output-file=requirements.txt requirements_dev.in requirements.in

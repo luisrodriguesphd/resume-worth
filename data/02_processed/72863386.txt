@@ -1,0 +1,42 @@
+LOCATION: Kuala Lumpur 
+COMPANY: AG Staffing Malaysia 
+JOB TITLE: Data Analysts/ Data Engineers (Bangsar South- Kerinchi LRT) 
+SALARY: RM 8,000 – RM 12,000 per month 
+DESCRIPTION: Data Collection and Analysis: Collaborate with cross-functional teams to gather and analyze game-related data, including player behaviour, in-game transactions, and performance metrics.
+Data Visualization: Create insightful and easy-to-understand data visualizations, dashboards, and reports to communicate key findings to stakeholders.
+Player Insights: Identify trends and patterns in player behaviour, demographics, and preferences to enhance player experiences and engagement.
+A/B Testing: Design and execute A/B tests to evaluate the impact of game updates and features on player engagement and monetization.
+Performance Optimization: Work closely with game developers to optimize game performance, identify bottlenecks, and recommend improvements.
+Predictive Analytics: Utilize statistical and machine learning techniques to build predictive models for player churn, spending patterns, and other relevant metrics.
+Data Quality Assurance: Ensure data accuracy and integrity by implementing data validation processes and quality checks.
+Fresh graduates are encouraged to apply 
+Bachelor's degree in a relevant field (e.g., Data Science, Statistics, Computer Science, or a related discipline). Advanced degree preferred.
+Proven experience in data analysis, preferably in the gaming industry.
+Proficiency in data analysis tools such as SQL, Python, or R.
+Strong data visualization skills using tools like Tableau, Power BI, or similar.
+Familiarity with statistical analysis and A/B testing methodologies.
+Excellent communication skills with the ability to present complex data findings to both technical and non-technical stakeholders.
+Self-motivated, detail-oriented, and able to work independently as well as part of a team.
+Passion for gaming and a deep understanding of gaming mechanics and player behaviour is a plus.
+Data Pipeline Development: Design, build, and maintain scalable and efficient data pipelines to collect, process, and store game-related data from various sources.
+Data Architecture: Collaborate with data analysts and data scientists to design and optimize data models and schema for analytical and reporting needs.
+ETL Processes: Develop and implement ETL processes for transforming raw data into structured datasets, ensuring data accuracy and integrity.
+Performance Optimization: Monitor and optimize data pipelines for performance, reliability, and cost-effectiveness.
+Data Quality Assurance: Implement data validation, data quality checks, and error handling to ensure data consistency and accuracy.
+Database Management: Administer and manage data storage systems, including data warehouses and data lakes.
+Documentation: Maintain clear and comprehensive documentation for data pipelines, processes, and architectural decisions.
+Bachelor's degree in Computer Science, Data Engineering, or a related field. Advanced degree preferred.
+Proven experience as a data engineer with expertise in data pipeline development, ETL processes, and data architecture.
+Proficiency in programming languages such as Python, Java, or Scala.
+Strong knowledge of data modeling, database management, and SQL.
+Experience with big data technologies and frameworks, such as Hadoop, Spark, or Flink.
+Familiarity with cloud platforms like AWS, Azure, or Google Cloud.
+Excellent problem-solving skills and the ability to work collaboratively in a team.
+Passion for gaming and a deep understanding of gaming data is a plus.
+13th Months Salary (upon Company Declaration)
+Project Incentive (upon Company Declaration based on project performance)
+Transport, Meal, Birthday Allowances (upon Confirmation)
+Sports Activities (Badminton & Basketball), Company Outing
+Training and certification sponsored by company (Selected employees).
+Rewards and recognition: Long Service Award / Best Performer Award / Role Model Awards etc
+What's your expected monthly basic salary?

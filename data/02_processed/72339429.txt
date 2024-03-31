@@ -1,0 +1,32 @@
+LOCATION: Shah Alam/Subang 
+COMPANY: Zuspresso (M) Sdn Bhd 
+JOB TITLE: Data Engineer 
+SALARY: RM 8,000 – RM 12,000 per month 
+DESCRIPTION: Design and Develop Data Pipelines: Create and maintain efficient, reliable, and scalable data pipelines that extract, transform, and load (ETL) data from diverse sources into AWS data storage systems.
+Data Modeling and Architecture: Design and implement data models for data warehousing and data lakes on AWS, ensuring data integrity, performance, and scalability.
+AWS Cloud Infrastructure: Utilize various AWS services such as Amazon S3, Amazon Redshift, AWS Glue, Amazon EMR, Amazon RDS, and others to build data solutions.
+Data Transformation and Processing: Develop data transformation processes, including data cleansing, enrichment, and aggregation, to ensure data accuracy and consistency.
+Performance Optimization: Identify and implement performance optimization techniques to enhance data processing speed and reduce latency in data pipelines.
+Data Security and Compliance: Ensure that data handling practices comply with relevant data security and privacy regulations. Implement security measures to protect sensitive data.
+Monitoring and Troubleshooting: Monitor data pipelines, data jobs, and data storage systems for issues and troubleshoot any data-related problems to ensure smooth data flow.
+Documentation: Create and maintain technical documentation for data engineering processes, data models, and data pipelines.
+Collaboration and Communication: Work closely with data scientists, analysts, and other stakeholders to understand data requirements and deliver data solutions that meet business needs.
+Continuous Improvement: Stay updated with the latest AWS services and data engineering best practices to propose and implement improvements to the existing data infrastructure.
+Bachelor's degree in Computer Science, Engineering, or a related field. A Master's degree is a plus.
+Proven experience as a Data Engineer/Architect for at least 3 years, specifically working with AWS data services and related technologies.
+Strong knowledge of AWS services such as Amazon S3, Amazon Redshift, AWS Glue, Amazon EMR, Amazon RDS, and others.
+Proficiency in programming languages such as Python, SQL, and familiarity with data manipulation frameworks/libraries.
+Hands-on experience with data modeling, data warehousing concepts, and building data pipelines using ETL tools.
+Familiarity with data governance, data security, and data privacy best practices.
+Excellent problem-solving skills and the ability to work independently as well as part of a team.
+Strong communication skills to effectively collaborate with cross-functional teams and convey technical concepts to non-technical stakeholders.
+Excellent problem-solving skills and the ability to work independently as well as part of a team.
+Strong communication skills to effectively collaborate with cross-functional teams and convey technical concepts to non-technical stakeholders.
+AWS Certified Data Analytics - Specialty or similar certifications.
+Experience with server less computing, containerization, and microservices architecture on AWS.
+Knowledge of data streaming platforms and technologies such as Apache Kafka or Amazon Kinesis.
+Experience in handling unstructured data and NoSQL databases on AWS.
+Familiarity with machine learning concepts and applying machine learning models to data processing tasks.
+ 
+How many years' experience do you have as a Data Engineer?
+Which of the following programming languages are you experienced in?
