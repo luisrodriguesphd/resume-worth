@@ -20,6 +20,7 @@ logs/**
 # also keep the example dataset
 !data/01_raw/*.csv
 !data/02_processed/**
+!data/02_processed/**/**
 
 # also keep all .gitkeep files
 !.gitkeep

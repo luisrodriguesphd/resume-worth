@@ -1,4 +1,4 @@
-,job_id,job_title,company,descriptions,location,category,subcategory,type,salary
+,job_id,job_title,company,description,location,category,subcategory,type,salary
 0,72761527,Data Engineer,ANHSIN TECHNOLOGY SDN BHD,"Design, develop, and maintain scalable and robust data architecture.
 Create and manage databases, data processing systems, and data integration solutions.
 Develop and implement efficient ETL processes for data ingestion and transformation.

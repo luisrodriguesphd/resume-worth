@@ -1,0 +1,639 @@
+,job_id,job_title,company,location,category,sub_category,job_type,salary,description
+0,74727704,Machine Learning Engineer (Artificial Intelligence),Private Advertiser,Kuala Lumpur,Science & Technology,"Mathematics, Statistics & Information Sciences",Full time,"RM 4,000 – RM 6,000 per month","Design, develop, and deploy machine learning models and algorithms for complex and unique datasets, using various techniques such as mathematical modeling, scikit-learn, NLP, CNN, RNN, DL, RL, Transformers, GAN, LLM, RAG
+Collaborate with cross-functional teams to extract insights, identify business opportunities and provide data-driven recommendations
+Stay up-to-date with the latest machine learning and AI techniques and tools
+Communicate complex technical concepts to non-technical stakeholders in an easy-to-understand manner
+Bachelor's degree or higher in Computer Science, Mathematics, Statistics, Actuarial Science, Informatics, Information Science or related fields
+Strong analytical skills and attention to detail
+Participation in Kaggle, Mathematics Olympiad or similar competitions is a plus
+Excellent programming skills in Python, R, Java, or C++
+Familiar with ML frameworks such as Tensorflow, Keras, PyTorch, MLFlow, AutoML, TensorRT, CUDA
+Excellent communication and collaboration skills
+Experience with designing, training, and deploying machine learning models
+Customer centric and committed to deliver the best AI results to customers
+What's your expected monthly basic salary?
+
+
+Role descriptions
+
+
+Salary insights
+
+
+Tools to help you prepare for jobs
+
+"
+1,74850440,Data Scientist,PHENOMENAL UAM Sdn Bhd,Kuala Lumpur,Science & Technology,"Mathematics, Statistics & Information Sciences",Full time,"RM 5,000 – RM 7,500 per month","Utilizing machine learning techniques to analyze and interpret complex data sets.
+Developing AI models and algorithms to solve specific business problems and improve operational efficiency.
+Collaborating with engineers and software developers to integrate AI solutions into our products and services.
+Conducting exploratory data analysis to identify trends, patterns, and insights.
+Designing and implementing experiments to validate model performance and accuracy.
+Communicating findings and insights to stakeholders through visualizations, presentations, and reports.
+Staying abreast of the latest advancements in AI and machine learning technologies, and evaluating their potential applications within our organization.
+Bachelor's degree in Computer Science, Data Science, Statistics, Mathematics, or a related field. Advanced degree (Master's or Ph.D.) preferred.
+Proven experience (X years) working as a Data Scientist or AI Engineer, with a strong focus on developing and implementing machine learning algorithms and AI models.
+Proficiency in programming languages such as Python, R, or Java, along with experience using libraries and frameworks such as TensorFlow, PyTorch, or scikit-learn.
+Solid understanding of statistical analysis, hypothesis testing, and experimental design.
+Experience with data visualization tools such as Matplotlib, Seaborn, or Tableau.
+Strong problem-solving skills and the ability to translate business requirements into analytical solutions.
+Excellent communication and collaboration skills, with the ability to effectively convey technical concepts to both technical and non-technical stakeholders.
+Familiarity with cloud computing platforms (e.g., AWS, Azure, Google Cloud) and big data technologies (e.g., Hadoop, Spark) is a plus.
+Passion for innovation and a keen interest in staying updated with the latest trends and advancements in AI and machine learning."
+2,74946043,Data Engineer Lead,KK Group Of Companies,Bandar Tasik Selatan,Information & Communication Technology,Engineering - Software,Full time,"RM 7,000 – RM 8,000 per month","Making large and/or complex data more accessible, understandable and usable
+Transforming, improving and integrating data, depending on the business requirements
+Delivering the data in a useful and appealing way to users
+Work with noisy, dirty, and unstructured data, data cleansing, scraping unstructured data, and converting into structured data
+Build and maintain data pipelines, ETL, databases and applications to acquire, store and manage data
+Choose, design, test and implement data software and solutions for projects and enterprise
+Selecting and integrating any Big Data tools and frameworks required to provide requested capabilities
+Monitoring performance and advising necessary infrastructure changes to optimize performance and cost
+Architect, develop and implement end-to-end automated data flows for data and analytical needs
+Perform data profiling, data quality assessment, data cleansing and data transformation
+Recommend appropriate solutions architecture that is highly scalable based on business requirement
+Create date tools for data scientists and data visualization team members
+Builds the infrastructure required for optimal extraction, transformation, and loading for data from a wide variety of data sources using SQL, noSQL and cloud (AWS / Azure / Google / Alibaba / DigitalOcean) technologies
+Benchmark, evaluate and improve the scalability, robustness, efficiency and performance of big data platforms and applications
+Engage in the delivery of analytics assignments for business users involving, amongst others; data preparation, data visualization, creating business insights etc
+Contribute and facilitate workshops/interviews bridging the gap between data analytics and business outcomes
+Provide strategic and tactical advice to business units by translating analytical solutions into out-of-the-box execution recommendations addressing business objectives and impacting bottom line results
+Combine your technical expertise with the ability to architect, deploy and oversee integrated analytics/business intelligence/technology solutions
+Build case for analytics through need analysis and business case (quantify likely benefits)
+Consult with leaders of business teams and manage expectations, meet project and deliverable timelines, ensure accurate and timely completion of deliverables
+Collaborate with several other teams and roles across the organization on requirements gathering and solution deployment
+Make analytical product, service or process decisions likely to impact multiple groups of employees and/or customers (internal or external)
+Manage technology solution portfolios, and identifying new technology approaches to solve business problems with a strong focus on leveraging enterprise data
+Contribute to the building and management of the analytics infrastructure
+Work with management team on staffing needs, strategic technology trend identification, monitoring project progress and completion, issue resolution and technical solutions related to data, data flow and advising on algorithm deployment
+Collaborate with analytics practitioners, business analysts and methodologists to design and oversee the development of working prototypes of technical solutions
+Technical support and lead for the Data Engineer team
+Work with project teams to assist with data-related technical issues and support their data infrastructure needs
+What's your expected monthly basic salary?
+How many years' experience do you have as a Data Engineer?
+How many years' experience do you have as a Tableau Specialist?
+How many years' experience do you have as a Power BI Developer?
+Have you completed an Amazon Web Services Developer certification?
+Have you completed a Cloudera Certified Professional Data Engineer certification?
+How many years' experience do you have as an ETL Data Warehouse Programmer?
+How much notice are you required to give your current employer?"
+3,74915330,Data Engineer (Python),Inter Island Manpower Pte Ltd,Kuala Lumpur,Information & Communication Technology,Engineering - Software,Full time,"RM 6,000 – RM 7,000 per month","Bachelor's or Master's degree in Computer Science, Engineering, or related fields.
+1-3 years as a Data Engineer with expertise in data engineering concepts.
+Hands-on experience with Azure or AWS cloud services, Python/Java/Scala, and data processing frameworks.
+Strong knowledge of data modeling, database technologies, and problem-solving skills.
+Excellent communication, collaboration, and adaptability to fast-paced environments.
+Design, develop, and maintain data pipelines for diverse sources into data lake/warehouse.
+Collaborate with data scientists for analysis and reporting needs.
+Research and evaluate data sources for property development.
+Develop web-scraping scripts and automate pipeline deployment.
+Utilize Azure, AWS, and relevant tech for data solutions.
+Integrate data between systems/platforms, monitor, and optimize pipelines.
+Ensure data security, compliance, and quality while staying updated on data tech trends.
+How many years' experience do you have as a Data Engineer?
+Which of the following programming languages are you experienced in?"
+4,74891040,Principal Data Engineer,Agensi Pekerjaan Hays (Malaysia) Sdn Bhd,Petaling,Information & Communication Technology,Database Development & Administration,Full time,$10000.0 - $14000.0 p.m.,"Take ownership of the end-to-end data solution development and operation, including modelling, ETL, scripting, visualisation, testing, deployment, etc.
+Drive maturity of data infrastructure and architecture by designing, implementing, and maintaining the ingestion, ETL, storage, consumption, archival and disposal process and structure for product and organisation.
+Build data products, including APIs, visualisation tools, analytics and machine learning platforms.
+Utilise ETL to provide actionable insights and intelligence, serving both product offerings and internal data consumption for business functions.
+Coach and mentor the junior team members to develop and improve both technical and non-technical capabilities.
+At least 3 years of experience in a Data Engineering role.
+Strong command of SQL, Python, Data Modelling, Data Warehousing, ETL/ELT.
+Strong foundation in cloud data services such as AWS Redshift, Azure Synapse, BigQuery, Snowflakes, etc.
+A competitive salary based on performance and output.
+Excellent career support and leadership training.
+Exposure to the growing fintech industry and room to grow at an elevated rate."
+5,74923865,Data Analyst,MONKEYCLOUD MEDIA SDN. BHD.,Petaling,Information & Communication Technology,Help Desk & IT Support,Full time,"RM 3,000 – RM 4,500 per month","Collect and compile data from different sources, including databases, and spreadsheets.
+Filtering and cleaning data to ensure accuracy.
+Analyze data to identify trends, patterns, and anomalies, and provide actionable insights to support in various team decision-making.
+Develop and maintain dashboards and reports to track key project performance metrics, including progress and target achievement.
+Conduct ad-hoc data analysis to address specific project management questions or issues.
+Assist in the preparation of presentations and reports for project status updates and executive-level reporting.
+Diploma or Degree in any related field
+Experience in data analysis, business analysis or similar role, with a strong focus on data manipulation and analysis is preferred.
+Familiarity with data analysis tools and concepts, with experience in Power BI being a strong advantage.
+2-3 years working experience as a Business Intelligence Analyst/Data Analyst or any position that related to data and business analytics with strong statistical background.
+Preferably with prior experience in the FMCG industry.
+Experience in data analysis, business analysis or similar role, with a strong focus on data manipulation and analysis is preferred.
+Proficiency in data analysis tools and software, such as Power BI, Microsoft Excel (Pivot, Macro) or similar tools.
+Strong organizational skills and the ability to manage multiple tasks and priorities simultaneously.
+A collaborative and team-oriented mindset with the ability to work effectively in a cross-functional environment.
+Excellent communication and presentation skills, with the ability to convey complex information clearly and effectively.
+Strong analytical and problem-solving skills, with the ability to translate data into actionable insights.
+Monday to Friday
+ : 8.30a.m to 5.30p.m 
+How many years' experience do you have as a data analyst?
+How many years' experience do you have as a Power BI Consultant?
+How would you rate your Mandarin language skills?
+Which of the following data analytics tools are you experienced with?
+Which of the following Relational Database Management Systems (RDBMS) are you experienced with?"
+6,74879920,Data Analyst (Intern),MONT ROYALE COLLEGE,Sri Hartamas,Science & Technology,"Mathematics, Statistics & Information Sciences",Contract/Temp,RM 600 per month,"Collect, organize, and analyze data from multiple sources to identify trends, patterns, and insights.
+Develop and maintain databases and data systems necessary for data analysis and reporting.
+Generate regular reports and dashboards to communicate key findings and metrics to stakeholders.
+Collaborate with departments to understand their data needs and provide analytical support to inform strategic initiatives.
+Conduct thorough data quality assessments and implement solutions to address any discrepancies or issues.
+Stay updated on industry trends and best practices in data analysis and visualization techniques.
+Bachelor's degree in Computer Science, Statistics, Mathematics, Economics, or related field. (Master's degree preferred)
+Proven experience working as a data analyst or in a similar role.
+Proficiency in data analysis tools and software such as Excel, SQL, Python, R, or Tableau.
+Strong analytical and problem-solving skills with the ability to translate complex data into actionable insights.
+Excellent communication and presentation skills, with the ability to effectively convey technical information to non-technical stakeholders.
+Detail-oriented with a commitment to accuracy and data integrity.
+Ability to work independently and collaboratively in a fast-paced environment.
+What's your expected monthly basic salary?"
+7,74866336,Manager - Data Engineer,Elken Sdn Bhd,Petaling,Science & Technology,"Mathematics, Statistics & Information Sciences",Full time,"RM 8,000 – RM 12,000 per month","Provide database operation support including monitoring, performance tuning, backup and restoration, disaster recovery, troubleshooting, replication setup and capacity management.
+Responsible for installing, configuration, upgrading and maintaining multiple environments including on premise and cloud databases.
+Provide recommendation for future direction of database technology and infrastructure setup.
+Deploy database objects and data patches when required by development team.
+Assist developers with complex query tuning and best practice suggestion.
+Database environment setup for Development, UAT and Production.
+Database migration for various platform.
+Build automation script for database tasks.
+Collaborate with Data Analysts, and other stakeholders to understand data requirements and provide data solutions to meet their needs.
+Bachelor’s Degree in Computer Science or equivalent in related field.
+At least 3 years working experience in related field.
+Possess professional database certifications such as Microsoft Certified, Oracle Certified will be added advantage.
+Experience with RDBMS Administration such as MS SQL, My SQL MariaDB, PostgresSQL and Oracle.
+Experience with AWS RDS Cloud database environment administration.
+Experience with Windows Server and Linux environments.
+Experience with Powershell scripting, Linux command line.
+Able to converse in 
+Mandarin
+ as needed to support oversea team like Hong Kong, China and Taiwan.
+What's your expected monthly basic salary?
+Which of the following Relational Database Management Systems (RDBMS) are you experienced with?"
+8,74789886,Junior Data Analyst,Oriental Fortune Trading Malaysia Sdn Bhd,Petaling,Information & Communication Technology,Business/Systems Analysts,Full time,"RM 3,000 – RM 4,300 per month","Data Collection and Cleaning:
+ Collect and compile data from various sources, ensuring data accuracy and completeness. Perform data cleaning and transformation as necessary to prepare it for analysis.
+Data Analysis:
+ Assist in conducting data analysis using statistical methods, data visualization tools, and data analysis software. Summarize findings in clear and concise reports.
+Data Visualization:
+ Create visually appealing and informative charts, graphs, and dashboards to present data insights to stakeholders. Use tools such as Tableau, Power BI, or Excel for visualization.
+Report Generation:
+ Prepare regular and ad-hoc reports to communicate key metrics and findings to the team and management. Ensure reports are accurate and delivered on time.
+Data Quality Assurance:
+ Help maintain data quality standards by identifying and resolving data discrepancies or inconsistencies. Collaborate with other team members to establish data quality protocols.
+Collaboration: 
+Work closely with cross-functional teams to understand data requirements and deliver actionable insights.
+Research and Learning:
+ Stay up-to-date with industry trends and best practices in data analysis. Continuously expand your knowledge and skills in data analytics techniques and tools.
+Bachelor's degree in a relevant field such as Finance, Data Science, Statistics, Mathematics, Computer Science, or a related discipline.
+Candidate with 1-2 years quantitative analysis or finance background are preferred; 
+fresh graduates are welcome as well.
+Required language(s): 
+Fluent in English & Mandarin
+ are preferred because the role requires candidates to interact with Mandarin-speaking clients.
+Strong analytical skills and a passion for working with data.
+Proficiency in data analysis tools and programming languages such as Excel, SQL, Python, or R.
+Familiarity with data visualization tools (e.g., Tableau, Power BI) is a plus.
+Excellent communication skills, with the ability to translate complex data into understandable insights.
+Detail-oriented and capable of maintaining data accuracy and integrity.
+Highly organized and able to manage multiple tasks and deadlines effectively.
+Team player with a collaborative mindset and the ability to work well in a diverse team environment.
+Eagerness to learn and adapt to new tools, techniques, and technologies in the field of data analysis.
+Possess own car.
+What's your expected monthly basic salary?
+How many years' experience do you have as a data analyst?
+Which of the following languages are you fluent in?"
+9,74703677,Junior Data Analyst,Private Advertiser,Bangsar South,Information & Communication Technology,Business/Systems Analysts,Full time,"RM 3,500 – RM 4,300 per month","Analyze and manage data related to E-sports events, focusing on Key Performance Indicators (KPIs).
+Create daily reports highlighting discrepancies or errors identified during the analysis process.
+Chart and conduct in-depth analyses of team performance in E-sports events.
+Real-time monitoring and analysis of data, including the production of charts and performance evaluations.
+Maintain daily event reports with important metrics for overall performance.
+Collaborate with team members, ensuring smooth operations and providing support.
+Fluency in Mandarin preferred for client interaction.
+Strong analytical and critical thinking skills.
+Ability to work independently under pressure and manage multiple projects with tight schedules.
+Flexibility for shifts and overnight work.
+Passion for E-sports is a plus.
+Fresh graduates are welcome to apply.
+13 months’ Salary
+Quarterly and annual bonuses
+Monthly meal, shift, and parking allowances
+Monthly team gatherings & birthday celebrations
+Unlimited snacks & beverages
+Team building activities & outings
+Medical insurance
+14 days of annual leave
+Birthday leave
+8 hours of work per day
+EPF, SOCSO, EIS contributions
+Which of the following languages are you fluent in?"
+10,74602585,Data Analyst/Scientist,PERSOLKELLY Workforce Solutions Malaysia Sdn Bhd,Kulim District,Science & Technology,"Mathematics, Statistics & Information Sciences",Contract/Temp,"RM 3,500 – RM 5,000 per month","What's your expected monthly basic salary?
+How many years' experience do you have as a data analyst?
+How many years' experience do you have using SQL queries?"
+11,74586835,Data Engineer,Michael Page International (Malaysia) Sdn Bhd,Kuala Lumpur,Information & Communication Technology,Database Development & Administration,Full time,$36k - $64k p.a. + Bonus + Other benefits,"Designing and implementing Data pipelines and ETL processes from various sources into our Data Warehouse
+Ensure that data is cleaned, standardized, and properly structured to minimize data inconsistencies and gaps
+Create and maintain data pipelines to facilitate the smooth flow of data throughout the organization
+Work closely with cross-functional teams to identify data integration needs and implement solutions that enable seamless data movement
+Establish data quality standards and processes to monitor and maintain the accuracy and integrity of data within Big Query and other data systems
+Implement data validation techniques to identify and rectify invalid or incomplete data entries
+Design and maintain data schemas to ensure consistency and efficiency in data storage and retrieval
+Collaborate with Tech and Business teams to refine data models and adapt to changing business needs
+Drive data-centric decision-making within the organization
+Collaborate with stakeholders to foster a data-driven culture by promoting data literacy and usage
+Bachelor's degree in Computer Science, Engineering or a related field
+Proven experience as a Data Engineer or similar role, with a track record of implementing successful data solutions
+Proficiency in ETL (Extract, Transform, Load) processes and data integration techniques
+Strong knowledge of database systems and data warehousing concepts
+Experience with Google Cloud Platform (GCP) services"
+12,74513015,Senior Data Scientist (Full Stack),Ambition Group Malaysia Sdn Bhd,Petaling,Consulting & Strategy,Other,Full time,Attractive Remuneration Package,"Utilize technical proficiency for data gathering, cleaning, and preprocessing from varied sources.
+Develop, train, and assess machine learning models for solving business problems like predictive analytics and natural language processing.
+Conduct statistical analysis, hypothesis testing, and data-driven experimentation; stay updated on emerging trends in data science and machine learning
+Degree/Master in Computer Science, Mathematics, Statistics.
+Experienced in all aspects of the data science lifecycle, including problem formulation, data collection and preprocessing, exploratory data analysis, feature engineering, model selection and training, model evaluation.
+Familiar working with cloud-based big data platforms (Azure, GCP, AWS)
+A minimum 3 years of hands on experience with Python.
+Excellent communication skills in Bahasa Melayu and English."
+13,74636692,Data Analyst,Agensi Pekerjaan Talent Recruit Sdn. Bhd.,Kuala Selangor District,Information & Communication Technology,Business/Systems Analysts,Full time,"RM 4,000 – RM 5,000 per month","Analyze and interpret key indicators in e-commerce
+Provide valuable insights and identify trends based on the sales data and suggest recommendations and key action plans 
+Provide competitor analysis 
+Evaluation of the effectiveness of sales and marketing tools and mechanics
+Creating and developing tools for analysis and information processing 
+Presenting the results of reports and graphical modeling of data 
+Work closely with the e-Commerce sales team to increase sales and revenue 
+Develop and maintain data pipelines to ensure data accuracy, integrity, and availability
+Develop and maintain e-Commerce dashboards as per client’s requests
+Providing insight to the e-Commerce sales team to optimize marketing expenses
+Data Review: reviewing and validating data from various sources (e.g. Lazada, Shopee, etc.) to ensure data quality and accuracy
+Diploma or Bachelor’s degree in Data Science, Statistics, Computer Science, or a related field 
+Min 
+1 - 2 years of experience as a Data Analyst/Business Analyst/Category Management preferably in E-Commerce or FMCG industry
+Advanced Excel and data mining skills 
+Proficient in data visualization tools (e.g. Power BI) and database query languages (e.g. SQL) 
+Knowledge of Cloud Computing is an added advantage (e.g. Azure) 
+Familiarity with Azure Data Factory and Azure Synapse Pipelines is an added advantage 
+Ability to work independently and take the lead in projects 
+Strong presentation skills
+Permanent employment
+Working hours : Mon - Fri (9am – 6pm) *
+Saturday half day only when required by Management during certain peak events (very occasional)
+Working location : Puncak Alam
+What's your expected monthly basic salary?"
+14,74601731,Data Analyst Internship,Air Energy Consulting (Malaysia) Sdn Bhd,Kuala Lumpur,Administration & Office Support,Records Management & Document Control,Contract/Temp,"RM 900 – RM 1,000 per month","Review and update on Bullhorn data for Asia placements.
+Work with the Service Team Australia on updating the Bullhorn data for data accuracy.
+Work closely with the Quality Coordinator on the accuracy and completeness of the data (Client’s PO/WO and Contractors’ employment packages) within the Airswift systems.
+Work with the relevant parties to ensure that any errors are corrected promptly.
+Administrator and investigate client, assignee and consultant surveys.
+Data analysis – accuracy report that was generated for the entire Asia Pacific Region.
+Consolidate data and dashboards for distribution to SVPs and Global Operations as required.
+Manage the Business Continuity plan and Office Safety for the super region and specific country.
+Work with other members of the Regional Commercial Team, ensuring that all requests for review, questions and queries are addressed, and escalating to the relevant people when required.
+The entire process flow of how a manpower/workforce solution provider organisation functions (Sales/BD -> Recruitment -> Onboarding -> Payroll -> Billing).
+Diploma or Degree in Business Administration or Management or equivalent.
+Knowledge of relevant regulatory requirements in the region.
+Excellent technical skills including all Microsoft Office products and understanding of statistics.
+Ability to problem solve with high attention to detail.
+Excellent written and verbal communication and interpersonal skills.
+Must have a sense of urgency in completing tasks.
+Client service orientated with good teamwork skills.
+Ownership and willingness to accept responsibility.
+Virtual Onboarding Events.
+Team-driven environment fostering a supportive culture with a strong emphasis on work-life balance.
+Cheers! where your peers can nominate you for outstanding performance.
+Coaching and Training are provided.
+Growth
+ - In life and business, one must grow to flourish and achieve high ambitions. Growth requires change, challenge, risk and sacrifice - we will always choose growth.
+Safety
+ - We create a safe and inclusive environment to protect the physical and psychological well-being of everyone we work with.
+Excellence
+ - We deliver, holding ourselves accountable for results. Our customers see excellence in everything we do.
+Integrity
+ - We are ethical, open, honest and authentic. People trust us to do the right thing for the right reason.
+Which of the following statements best describes your right to work in Malaysia?"
+15,74360323,Data Scientist,TALENTBANK SDN BHD,Kuala Lumpur,Science & Technology,"Mathematics, Statistics & Information Sciences",Full time,"RM 6,800 – RM 10,200 per month","Which of the following programming languages are you experienced in?
+What's your expected monthly basic salary?
+Which of the following data analytics tools are you experienced with?
+How many years' experience do you have as a data scientist?"
+16,74433737,Data Engineer,Michael Page International (Malaysia) Sdn Bhd,Selangor,Sales,Other,Full time,$96k - $97k p.a.,"Attractive remuneration package
+Be part of a globally recognised organisation
+Enhance your development skills"
+17,74323540,Data Scientist,AGENSI PEKERJAAN LEWIS TALENT CONSULTING SDN. BHD.,Petaling,Science & Technology,"Mathematics, Statistics & Information Sciences",Full time,"RM 6,000 – RM 8,500 per month","Understanding the data information, investigating and preprocessing vast datasets to unveil significant features and insights.
+Design and deploy predictive models employing advanced statistical and machine learning techniques to address complex business issues.
+Generate compelling visualizations to illustrate complex analyses and insights to both technical and non-technical audiences.
+Engage closely with multidisciplinary teams to grasp business objectives and partake in data-driven projects.
+Keep abreast of the latest data science advancements and enhance the organization's data science methodologies.
+At least possess a Master's or Ph.D. in Data Science, Statistics, Computer Science, or related fields.
+Demonstrated experience as a Data Scientist, supported by a portfolio of successful data science projects.
+Expertise in Python or R, including familiarity with relevant libraries and frameworks.
+Solid foundation and experience in applying machine learning algorithms to practical problems.
+Strong interpersonal and communication capabilities for effective teamwork with cross-functional groups.
+Commitment to staying informed about industry trends, data science techniques, and tools. Engage in ongoing training and development programs as necessary.
+Expertise in analyzing extensive, complex datasets to extract valuable insights.
+Proficiency in applying statistical and machine learning methods to solve real-world challenges.
+Competence in programming languages like Python or R for data analysis and modeling.
+Strong ability in creating visualizations with tools such as Tableau, Power BI, or similar platforms.
+Creative problem-solving aptitude for tackling complex business issues with data-driven solutions.
+Exceptional ability to articulate complex findings and insights clearly.
+How many years' experience do you have as a data scientist?
+Which of the following programming languages are you experienced in?
+Which of the following data analytics tools are you experienced with?
+How would you rate your Mandarin language skills?
+Which of the following languages are you fluent in?"
+18,73981733,Big Data Engineer - Cloud,Private Advertiser,Kuala Lumpur,Information & Communication Technology,Engineering - Software,Contract/Temp,"RM 9,000 – RM 13,000 per month","Which of the following statements best describes your right to work in Malaysia?
+What's your expected monthly basic salary?
+
+
+Role descriptions
+
+
+Salary insights
+
+
+Tools to help you prepare for jobs
+
+"
+19,74324430,Data Scientist Assistant Manager,AGENSI PEKERJAAN LEWIS TALENT CONSULTING SDN. BHD.,Petaling,Science & Technology,"Mathematics, Statistics & Information Sciences",Full time,"RM 10,000 – RM 14,000 per month","Support the oversight of data science projects to ensure their timely and precise execution, delivering advanced analytics and insights. Address project hurdles collaboratively and refine project outcomes.
+Assist the Data Scientist Manager in mentoring and directing the data science team. Offer guidance on project priorities, technical challenges, and career growth.
+Engage with your team to craft and execute predictive models leveraging sophisticated statistical and machine learning techniques to tackle complex business issues.
+Aid in the exploration and preprocessing of large datasets to unearth valuable features and insights.
+Collaborate effectively with multidisciplinary teams to grasp business goals, align data science projects, and articulate insights to non-technical audiences.
+Drive the enhancement of data science methodologies and processes. Keep abreast of industry standards and evolving trends.
+Holding a minimum of Master's or Ph.D. in Data Science, Statistics, Computer Science, or any other related fields.
+Demonstrable experience as a Data Scientist, including roles in leadership or management.
+High proficiency in languages such as Python or R, along with familiarity with pertinent libraries and frameworks.
+A thorough grasp and application experience of machine learning algorithms in practical scenarios.
+Excellent interpersonal and communication skills for effective teamwork and cross-functional collaboration.
+A commitment to continuous learning, staying updated with data science trends, techniques, and tools, and participating in relevant training and development programs.
+Proven leadership ability to mentor and inspire a team of data scientists.
+Exceptional project management capabilities, with a knack for prioritizing, resource allocation, and deadline adherence.
+Skilled in dissecting large, intricate datasets to extract significant insights.
+Proficiency in utilizing advanced statistical and machine learning methods to address real-world challenges.
+Competent in programming languages like Python or R for data analysis and modeling.
+Strong communication skills, capable of explaining complex findings to a broad audience range.
+How many years' experience do you have as an Assistant Manager?
+Which of the following programming languages are you experienced in?
+Which of the following data analytics tools are you experienced with?
+Which of the following languages are you fluent in?
+How would you rate your Mandarin language skills?"
+20,74488251,Data Engineer/Data Cloud Engineer/Salesforce,LIEGE SOLUTIONS SDN. BHD.,Kuala Lumpur,Information & Communication Technology,Engineering - Software,Full time,"RM 8,000 – RM 12,000 per month","Develop, build, and implement Salesforce Data Cloud instances in conjunction with Salesforces (Sales/Service, Salesforce Marketing Cloud, etc.)
+Develop, oversee, and maintain key data model, segmentation, architecture, code documentation, and technical specifications for designated workstreams.
+Lead the development and physical design of solutions, guide the development team, and ensure the system's architectural integrity.
+Implement Salesforce Data Cloud, emphasizing data modelling, performance optimization, and integrations.
+Function as a technical solution specialist within the Salesforce Data Cloud ecosystem, including components like Data streams, Unified Data Model, Transformations/Insights, Identity Resolution, Segmentations, etc. 
+Drive end-to-end project execution, encompassing analysis, documentation, solution development, testing, and performance, to meet client expectations.
+Identify technical design and data model risks, confirm their validity, and devise strategies to mitigate them.
+Actively participate in technical design and data model workshops alongside Engineering Teams and business stakeholders.
+Clearly translate and communicate technical requirements and solutions to the business using story-based narratives, and present strategies and recommendations to executives.
+Ensure that technical documentation is consistently updated through active participation in technical workshops.
+Lead sessions to understand client needs in technical marketing and Salesforce Data Cloud requirements, and act as a crucial technical resource throughout the implementation process.
+Assess client requirements, propose effective solutions, and communicate the capabilities and limitations of Salesforce Data Cloud, Marketing Cloud Engage, Personalization, Intelligence, Sales, Service, and other relevant SF ecosystem platforms.
+Oversee and coordinate testing activities, including System Integration Testing (SIT) and User Acceptance Testing (UAT), in line with the project's scope.
+Manage workstreams in large-scale enterprise implementations, focusing on Salesforce Data Cloud architecture and data models.
+Bachelor's Degree.
+Experience with at least 1 end-to-end Salesforce Data Cloud implementation.
+Experience with at least 1 Salesforce cross-cloud integrations.
+5+ years in data model and architecture in the Salesforce ecosystem.
+5+ years in consulting, project implementation for global based client, or project management using Agile methodologies.
+5+ years in Customer Data Modelling best practices.
+Proficiency in moderately complex SQL queries, SOQL, Python.
+Experience in integrating with cloud-based data warehouses/data lakes (e.g. Snowflake, Databricks, etc.).
+Effective communication to both technical and non-technical audiences.
+Experience with Tableu, Data Analytic Platform (e.g. PowerBI).
+Experience with Segmentation strategy.
+Experience with Marketing Cloud Personalization.
+Experience with Adobe, Marketo, Oracle or other enterprise marketing automation or CDP platforms.
+Front-end coding skills (HTML, CSS/SASS, Typescript, React, XML, JSON).
+Salesforce certifications (Salesforce Data Cloud Consultant , and Salesforce Certifications - Marketing Cloud, Admin, etc.).
+A supportive, friendly and professional team environment;
+Stability to develop your career with an established and growth focused company; 
+A range of benefits as part of our Employee Benefit Program;
+Which of the following statements best describes your right to work in Malaysia?
+What's your expected monthly basic salary?
+How many years' experience do you have as a Salesforce Developer?
+How many years' experience do you have as a Salesforce Architect?
+How many years' experience do you have as a Salesforce Marketing Cloud Specialist?
+How many years' experience do you have as a Salesforce Engineer?"
+21,74354434,Data Analyst,EMART24 HOLDINGS SDN. BHD.,Petaling,Information & Communication Technology,Business/Systems Analysts,Full time,"RM 6,800 – RM 7,000 per month","Develop and maintain dashboards and reports that provide insights into key performance indicators (KPIs) across all business functions.
+Partner with IT team to leverage technology infrastructure and tools to optimize data collection, storage, and analysis processes.
+Conduct ad-hoc analysis to answer business questions and identify opportunities for growth and improvement.
+Collaborate with cross-functional teams to identify, analyze and recommend data driven solutions to business problems.
+Develop and maintain data pipelines to ensure data is accurate, consistent, and available in a timely manner.
+Identify and recommend BI tools that can help to improve data visibility and analysis across the organization.
+Train and support end-users on the use of BI tools and dashboards.
+Provide recommendations to stakeholders on how to use data to drive growth and improve bottom-line results.
+Continuously monitor the performance of the business and make recommendations for improvement based on data analysis.
+Maintain a high level of data quality, accuracy, and consistency.
+Bachelor's degree in Actuarial Science, Computer Science, Information Technology, or a related field.
+Proven experience (3-5 years) in a business intelligence or data analyst role, preferably in a retail or eCommerce environment.
+Experience using BI tools such as Power BI, Tableau, Metabase, or Google Data Studio.
+Proficient in SQL and/or Python, and data visualization tools.
+Strong analytical and problem-solving skills with the ability to work with complex data sets.
+Ability to work collaboratively and communicate effectively with cross-functional teams.
+Knowledge of retail or eCommerce industry and data trends.
+Excellent communication skills, both written and verbal, with the ability to communicate complex ideas in a simple and clear manner.
+Ability to prioritize and manage multiple projects simultaneously.
+Proficient in both English and Bahasa Malaysia.
+Which of the following statements best describes your right to work in Malaysia?
+What's your expected monthly basic salary?
+How many years' experience do you have as a data analyst?
+Which of the following programming languages are you experienced in?
+How many years' experience do you have using SQL queries?
+Which of the following Relational Database Management Systems (RDBMS) are you experienced with?
+How would you rate your English language skills?
+Which of the following languages are you fluent in?"
+22,74366437,Data Analyst,Asia Careers Group SDN BHD,Kuala Lumpur,Science & Technology,"Mathematics, Statistics & Information Sciences",Full time,"RM 3,700 – RM 5,500 per month","Make large and complex data more 
+accessible, understandable and usable
+ within Tableau
+Transform, improve and integrate
+ graduate outcomes and average salary data
+Combining data result
+ sets across multiple sources using Excel and or other databased platforms
+Maintain and manage existing data collection tools
+, analytics tools and reporting platforms
+Maintain existing reports and develop new report where necessary to support business needs. 
+Delivering the data in a useful and appealing way to clients
+Excellent analytical skills
+Ability to work with large amounts of information and see the ‘bigger picture’
+Comfortable with 
+juggling facts, figures, and number crunching
+Strong communication skills
+, both written and oral and 
+able to work well with other teams
+Proficient in interacting with computer softwares
+Critical thinking
+: able to look at numbers, trends, and data and come to new conclusions based on the findings
+Attention to detail
+Excellent maths skills
+Working to deadlines
+Independent
+Drive data collection
+ and input data collection with 
+preprogrammed scripts
+To
+ collate and merge data sets
+ to enable reporting within Tableau
+Analyse current and past trends
+ of key performance indicators, highlighting trends and analysing causes of unexpected variances
+Develop models and analysis to 
+support strategic initiatives
+Create presentations that provide insightful analysis, 
+identify and propose actions for effective decisions
+Create infographics and generate insight
+ for both clients and for use in marketing and promotion
+To 
+perform ad hoc requests
+ for data on a day-to-day basis
+Minimum 1 years working experience in data analytics and visualisation
+Must be proficient in Power BI, 
+Tableau, Excel
+. Coding skills (Python / NodeJS) and graphic designing skills (Adobe Illustrator) are an advantage but not essential
+Experience creating, integrating dashboards to present data in a meaningful and interactive manner
+Good team worker
+ and able to multitask & meet tight deadlines
+Results oriented and creative
+Required language(s): 
+Proficient in English
+, other foreign languages a plus.
+Full time employment
+Company provided computer
+Exposure to fun and challenging problems in an agile environment
+Transparent company culture and openness to new ideas
+Training courses in your areas of interest
+Which of the following languages are you fluent in?
+Are you willing to undergo a pre-employment background check?
+How much notice are you required to give your current employer?"
+23,74354364,Data Analyst,PERSOLKELLY Workforce Solutions Malaysia Sdn Bhd,Kuala Lumpur,Consulting & Strategy,Analysts,Contract/Temp,"RM 5,500 – RM 6,500 per month","Provide quantitative analytics support to the AML Transformation & Governance team to enhance risk assessment of ongoing current and emerging AML centric risks in core areas; business, client, operations & system controls within the international business entities. 
+Develop and enhance quantitative/qualitative risk assessment model to proactively identify risks enhancement opportunities in areas that are not clearly defined by legislative AML guidance 
+Provide data extraction & quantitative validation for targeted AML risks or ongoing AML issues identified 
+Provide other ad hoc data extraction and validation requests from time to time and assist in the maintenance of data library for all IBG entities 
+Provide periodic quantitative entities’ risk assessment report as part of AML governance update to the AML IBG management 
+Provide collaboration support with the AML data team on entity level business intelligence related request from regional AML teams. 
+Bachelor degree or above majoring in computer science/engineering, statistics, Mathematics, finance and similar fields; Candidate with experience in AML risk modelling and data analytics are preferred 
+At least three years' AML/risk control/fraud management working experience in FI, PI, consulting firms or similar industries 
+Proficient in data handling coding (e.g., SQL) and at least one professional analytics tool such as SAS, python etc. 
+Familiar with at least one popular BI tool, such as Power BI, Tableau.
+Strong ability in logical thinking and problem solving 
+Able to plan & work independently on required deliverables and deadlines 
+Able to work under pressure and result-oriented 
+Highly flexible and detail-oriented with the ability to multi-task and change directions based on demand
+How many years' experience do you have as a data analyst?
+Which of the following languages are you fluent in?
+How many years' experience do you have as a business intelligence (BI) analyst?"
+24,74323206,Senior Data Analyst,AGENSI PEKERJAAN LEWIS TALENT CONSULTING SDN. BHD.,Petaling,Information & Communication Technology,Business/Systems Analysts,Full time,"RM 5,000 – RM 7,000 per month","Lead sophisticated ETL processes to aggregate data from various sources into our data warehouse.
+Perform comprehensive data analysis to uncover trends, patterns, and insights, aiding in addressing business challenges and uncovering opportunities.
+Pioneer the development of complex data visualizations, charts, and dashboards with tools like Tableau and Power BI.
+Ensure data integrity through rigorous quality control, identifying and correcting discrepancies.
+Work closely with different departments to align data insights with business objectives, advising on strategic actions.
+Mentor junior data analysts, promoting a culture of continuous learning and professional growth.
+At least possess a Bachelor’s or Master’s in Data Science, Mathematics, Statistics, Computer Science, or any equivalent fields.
+Technical Proficiency in data analysis (Excel, Python, SQL) and visualization tools (Tableau, Power BI) are required.
+Significant experience in a senior data analyst capacity, evidenced by impactful contributions.
+A solid understanding of Machine Learning, AI, and Data Warehousing principles.
+Leadership Experience: Demonstrated ability to lead and develop a team of data analysts.
+Exceptional analytical skills for dissecting complex datasets and performing advanced statistical analyses to derive actionable insights.
+Demonstrated leadership with the capability to effectively collaborate with both technical and non-technical teams.
+Creative problem-solving skills, offering innovative solutions to business issues.
+Excellent communication, able to simplify complex data findings for a varied audience.
+How many years' experience do you have using SQL queries?
+How would you rate your Mandarin language skills?
+Which of the following languages are you fluent in?
+Which of the following data visualisation tools are you experienced with?
+Which of the following data analytics tools are you experienced with?"
+25,74653378,Data Analyst (E-Commerce),AGENSI PEKERJAAN JS STAFFING SERVICES SDN BHD,Kuala Selangor District,Information & Communication Technology,Database Development & Administration,Full time,"RM 4,000 – RM 4,500 per month","Analyze and interpret key indicators in e-commerce such as sales performance, SKU sales, traffic, conversion rates, buying behavior, pricing, etc. 
+Provide valuable insights and identify trends based on the sales data and suggest recommendations and key action plans 
+Provide competitor analysis 
+Evaluation of the effectiveness of sales and marketing tools and mechanics 
+Creating and developing tools for analysis and information processing 
+Presenting the results of reports and graphical modeling of data 
+Work closely with the E-Commerce sales team to increase sales and revenue 
+Develop and maintain data pipelines to ensure data accuracy, integrity, and availability. 
+Develop and maintain E-Commerce dashboards as per client’s requests. 
+Providing insight to the E-Commerce sales team to optimize marketing expenses. 
+Data Review: reviewing and validating data from various sources (e.g. Lazada, Shopee, etc.) to ensure data quality and accuracy. 
+Candidates must possess at least a Bachelor’s degree in Data Science, Statistics, Computer Science, or a related field 
+Min. 1-2 years of experience as a Data Analyst/Business Analyst/Category Management preferably in E-Commerce or FMCG role 
+Advanced Excel and data mining skills 
+Proficient in data visualization tools (e.g. Power BI) and database query languages (e.g. SQL) 
+Knowledge of Cloud Computing is an added advantage (e.g. Azure) 
+Familiarity with Azure Data Factory and Azure Synapse Pipelines is an added advantage 
+Ability to work independently and take the lead in projects 
+Strong presentation skills 
+Which of the following statements best describes your right to work in Malaysia?
+What's your expected monthly basic salary?"
+26,74552169,Senior Business Intelligence Developer / Data Engineer,CITY FACILITIES MANAGEMENT SDN. BHD.,Kuala Lumpur,Science & Technology,"Mathematics, Statistics & Information Sciences",Full time,"RM 8,000 – RM 12,000 per month","Translation of business requirements into accurate and interactive data visualizations and analytics that enable management and other stakeholders to make informed decisions.
+Drive data mining & data science initiatives
+Review reports to determine basic characteristics, such as origin and report flow, format, frequency, distribution, and purpose or function of report.
+May prepare and issue instructions concerning generation, completion, and distribution of reports according to new or revised practices, procedures, or policies of reports management.
+Examine and evaluate purpose and content of business reports to develop new, or improve existing, format, use, and control.
+Recommend the establishment of new or modified reporting methods and procedures to improve report content and completeness of information.
+Produce associated documentation including functional specifications, testing plans and support documentation.
+Understand and comprehend new system changes as they affect data, reports, and reporting systems.
+Confer with team members originating, handling, processing, or receiving reports to identify problems and to gather suggestions for improvements.
+Manage internal and external stakeholders.
+Provide support and coaching to application support staff and associated team members.
+Provides assistance to support existing infrastructure where appropriate..
+Participate in application validation and QA efforts as they pertain to reporting, data, metrics, and report creation and execution.
+Provides assistance to support existing infrastructure where appropriate.
+Develop the appropriate strategies and plans to ensure a successful implementation that conforms to the company agreed SLA’s.
+A relevant advanced technical degree.
+A mastery of Business Intelligence concepts and the ability to articulate these concepts to technical and non-technical audiences.
+At least 5+ years’ experience in Business Intelligence
+Demonstrable strong data analysis and data mining skills (T-SQL, DAX and MDX).
+Strong data visualisation skills using SSRS & Power BI.
+Exposure to Snowflake on Azure platform and Matillion tools is desirable.
+Demonstrable experience with Business Intelligence tools in the Microsoft BI stack (SSAS and SSIS) or Matillion.
+Strong communication skills with the ability to collaborate and contribute to a team positively.
+Strong analytical skills with the ability to translate business needs into technical solutions.
+The ideal candidate will have experience working in agile projects.
+High cognitive ability to problem solving
+Own and display City values, respect and value others and work as one team. (mandatory all positions)
+Maintain a professional and positive attitude at all times and act with integrity (lead by example).
+High level numerical and analytical skills
+Demonstrated attention to detail and accuracy
+Maintain a high standard of delivery on all work and meet deadlines
+Display high level of motivation and drive at all times.
+Remain calm and organised at all times.
+Ability to develop rapport to ensure effective working relationship with a broad range of managers and team members.
+Demonstrate initiative and confidentiality across the business.
+Treat others with respect and be conscientious and courteous.
+Good time management, planning and organising ability.
+What's your expected monthly basic salary?
+
+
+Role descriptions
+
+
+Salary insights
+
+
+Tools to help you prepare for jobs
+
+"
+27,74976890,Risk Operation Data Analyst ( Online Payment),ALIPAY MALAYSIA SDN. BHD.,Kuala Lumpur,Banking & Financial Services,Analysis & Reporting,Full time,"RM 10,000 – RM 15,000 per month","What's your expected monthly basic salary?
+Which of the following languages are you fluent in?
+How many years' experience do you have as an Operational Risk Analyst?"
+28,74434092,Data Analyst - Internal Audit,Michael Page International (Malaysia) Sdn Bhd,Petaling,"Manufacturing, Transport & Logistics","Warehousing, Storage & Distribution",Full time,$102k - $103k p.a.,"Gain understanding of the company's financial, commercial and operational processes.
+Perform a hybrid role of conducting risk-based financial and operational audits with a core function of data analytics and statistical analysis of existing data sets
+Query and mine large data sets to discover transaction patterns, examine data and filter for targeted information
+Prepare and execute data analysis and interpret the results based on requirements to support the Express audit department and the Data Analytics team
+Prepare data reports and clear data visualizations for stakeholders
+Develop tools, audit approach and audit programs in strong cooperation with the Express audit team to support the internal audit work
+Develop automation for data analysis to increase audit efficiency
+Present key insights using advanced visualization tools, and highlight the data analytics capability to the IA team globally
+Present and discuss findings/data analysis results with management and create high quality audit reports and working papers in line with Internal Audit standards
+Perform requested follow-up procedures as necessary
+Openness to conduct audits across various segments of the company's business, including Operations (OPS), Customs, Finance, and Commercial
+Build and maintain solid relationships with key stakeholders, especially in the business IT area
+Manage own development in the professional area proactively
+Knowledge and experience in MS Office and the following desirable applications: 
+Database query languages (e.g. SQL)
+Power BI, Tableau, Qlik Sense, KNIME
+Programming and coding (e.g. Python, R, C/C++/C#, Visual Basic)
+Cloud computing, Azure, AWS, RPA
+Process mining, e.g. Celonis, DISCO, Signavio
+Excellent English language skills
+Convincing communicator and negotiator
+Analytical and conceptual abilities
+Analytical problem solving and proactive in finding solutions
+High personal responsibility and high degree of integrity
+Ability to work under pressure in a demanding environment
+Rapid comprehension
+Willingness to travel up to 30% of the time (or more if business needs dictate)
+Database query languages (e.g. SQL)
+Power BI, Tableau, Qlik Sense, KNIME
+Programming and coding (e.g. Python, R, C/C++/C#, Visual Basic)
+Cloud computing, Azure, AWS, RPA
+Process mining, e.g. Celonis, DISCO, Signavio
+Minimum two years of experience in data analytics, preferably within the company
+Minimum bachelor's degree in information technology, computer science, engineering, business administration or comparable qualification/background
+First professional experience, preferably within the company
+Attractive remuneration package
+Be part of a globally recognised organisation
+Enhance your analytical skills"
