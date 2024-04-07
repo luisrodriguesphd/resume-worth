@@ -31,7 +31,7 @@ def run():
             gr.Textbox(label="Resume", lines=10)
         ],
         outputs=[
-            gr.Textbox(label="Estimate Salary", lines=1)
+            gr.Textbox(label="Salary Range Estimation", lines=1)
         ],
         title=app_frontend['title'],
         description=app_frontend['description'],
