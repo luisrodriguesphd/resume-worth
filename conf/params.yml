@@ -30,10 +30,14 @@ app_frontend:
         2. **Advanced AI Analysis**: At the heart of ResumeWorth is a sophisticated large language model. This AI delves deep into your professional background, examining your experience, skills, and accomplishments with a fine-tooth comb. It doesn’t just read your resume; it understands it on a nuanced level.
         3. **Semantic and Keyword-Based Searches**: Utilizing a dynamic combination of keyword-based and semantic similarity searches, our AI scours through an extensive database of current job vacancies. This dual approach ensures no stone is left unturned. Keyword searches pinpoint specific terms related to your skillset and experience, while semantic searches grasp the context and nuances of your career, matching you with vacancies that truly resonate with your professional narrative.
         4. **Tailored Salary Range Estimation**: The culmination of this process is a personalized salary estimate. This isn’t just a number based on the role; it’s a reflection of the uniqueness of your resume, matched against the most suitable job vacancies, providing a salary range that accurately represents the value of your resume.
+        5. **Direct Opportunity Linkage**: In addition to receiving a tailored salary estimate, you are also provided with the URL to a job vacancy that closely aligns with your resume. This direct link to a potential job opportunity not only offers immediate value but also empowers you to explore new possibilities that are well-suited to your profile.
     # Empower your job search with insights that put you a step ahead.
     jobs: ["Data Engineer", "Data Scientist", "Data Analyst", "Machine Learning Engineer"]
     messages:
         job_title_not_found: "You must choose one of the roles in the Job Title section!"
-        salary_not_found: |
+        too_short_resume: |
             There is no good match between resume and available job vacancies.
             We recommend that you submit an extended version of your resume.
+        salary_not_found: |
+            Unfortunately, at the moment, there is no good match between resume and available job vacancies.
+            We recommend that you improve your resume by adding more details of your experiences and skills.

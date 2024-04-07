@@ -5,22 +5,23 @@ This pipeline utilizes the user resume to first pull the most similar vacancy fr
 """
 
 
-from resume_worth.pipelines.information_retrieval.nodes import retrieve_top_job_vacancies, get_vacancy_salary
+from resume_worth.pipelines.information_retrieval.nodes import retrieve_top_job_vacancies, get_vacancy_salary, get_vacancy_url
 
 
-def retrieve_top_job_vacancy_info(job_title: str, resume: str, k: int=1):
+def retrieve_top_job_vacancy_info(job_title: str, resume: str):
 
     # Stage 1 - Retrieve most similar jobs
 
-    job_docs = retrieve_top_job_vacancies(job_title, resume, k)
+    job_docs = retrieve_top_job_vacancies(job_title, resume, k=1)
 
     # Stage 2 - Get the salary for retrieved jobs
 
-    salaries = []
-    for job_docs in job_docs:
-        salaries.append(get_vacancy_salary(job_docs))
+    salary, url = None, None
+    if len(job_docs) > 0:
+        salary = get_vacancy_salary(job_docs[0])
+        url = get_vacancy_url(job_docs[0])
         
-    return salaries
+    return salary, url
 
 
 if __name__ == "__main__":

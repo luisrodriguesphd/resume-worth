@@ -12,14 +12,20 @@ app_frontend = params['app_frontend']
 def salary_estimator(job_title: str, resume: str):
 
     if job_title is None:
-        return app_frontend['messages']['job_title_not_found']
+        salary_range = ""
+        job_url = app_frontend['messages']['job_title_not_found']
 
     if len(resume) < app_backend['min_resume_size']:
-        return app_frontend['messages']['salary_not_found']
+        salary_range = ""
+        job_url = app_frontend['messages']['too_short_resume']
     
-    salaries = retrieve_top_job_vacancy_info(job_title, resume)
+    salary_range, job_url = retrieve_top_job_vacancy_info(job_title, resume)
 
-    return salaries[0]
+    if salary_range is None:
+        salary_range = ""
+        job_url = app_frontend['messages']['salary_not_found']
+
+    return salary_range, job_url
 
 
 def run():
@@ -31,7 +37,8 @@ def run():
             gr.Textbox(label="Resume", lines=10)
         ],
         outputs=[
-            gr.Textbox(label="Salary Range Estimation", lines=1)
+            gr.Textbox(label="Salary Range Estimation", lines=1),
+            gr.Textbox(label="Suitable Job Vacancy Sample", lines=1)
         ],
         title=app_frontend['title'],
         description=app_frontend['description'],

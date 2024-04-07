@@ -53,3 +53,23 @@ def get_vacancy_salary(doc: list[Document]):
     salary = doc.metadata["salary"] 
 
     return salary
+
+
+def get_vacancy_description(doc: list[Document]):
+
+    description = doc.page_content
+
+    return description
+
+
+def get_vacancy_url(doc: list[Document]):
+
+    job_id = doc.metadata["id"] 
+
+    # Move this information as a metadata of the job
+    url = f'https://www.jobstreet.com.my/job/{job_id}'
+
+    return url
+
+
+
