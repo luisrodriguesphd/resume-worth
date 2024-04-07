@@ -18,24 +18,14 @@ ENV HF_HOME=$HF_HOME
 ARG ENTRYPOINT_PATH="./entrypoint.sh"
 ENV ENTRYPOINT_PATH=$ENTRYPOINT_PATH
 
-# Create the /code/ directory
-RUN mkdir -p /code/
-
-# Explicitly create and set permissions for /root/llmware_data/
-RUN mkdir -p /root/llmware_data/ && \
-    chmod -R 777 /root/llmware_data/
-
-# Optionally, set the umask to ensure that new files and directories
-# created in /code/ have read, write, and execute permissions for everyone.
-# Note: This command sets the umask for the shell used in the Dockerfile's
-# RUN command, but it might not affect the umask of the shell in the running container.
-# For a more persistent approach, you might need to set the umask in the container's entrypoint script.
-RUN echo "umask 000" >> /etc/bash.bashrc
+# Create the /code/ directory a ser permissions rwe
+RUN mkdir -p /code/&& \
+    chmod -R 777 /code/
 
 # Set the working directory to /code/
 WORKDIR /code
 
-# Create a virtual environment in the directory /code/venv
+# Create a virtual environment in the directory /venv
 RUN python -m venv venv
 
 #  Activate the virtual environment by adding it to the PATH environment variable
@@ -57,7 +47,7 @@ RUN mkdir -p $HF_HOME && \
 COPY . .
 
 RUN pip install -e . && \
-    python src/resume_worth/pipelines/data_indexing/data_indexing.py && \
+    python src/resume_worth/pipelines/data_indexing/pipeline.py && \
     chmod +x $ENTRYPOINT_PATH
 
 ENTRYPOINT $ENTRYPOINT_PATH

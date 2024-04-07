@@ -1,8 +1,13 @@
 # to read conf and secrets
 python-dotenv
 
+# To ETL data from Kaggle
+pandas
+
 # to build LLM Apps
-llmware
+langchain
+langchain-community
+sentence-transformers
 chromadb
 
 # to build the user infertafe

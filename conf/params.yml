@@ -1,0 +1,22 @@
+# Data
+ingestion_data_dir: ["data", "02_processed"]
+ingestion_metadata_dir: ["data", "02_processed", "metadata"]
+
+# Embeddings
+embedding_model_name: "sentence-transformers/all-mpnet-base-v2"
+embedding_dir: ["data", "03_indexed"]
+
+# app
+APP_TITLE: "ResumeWorth"
+APP_DESCRIPTION: |
+    Discover Your Market Value!
+
+    Unlock the true value of your experience with ResumeWorth. 
+
+    Simply enter your job title, upload your resume, and let our advanced AI analyze your professional background. 
+    
+    In moments, you'll receive an estimated salary, tailored to your unique skills and experience. 
+# Empower your job search with insights that put you a step ahead.
+JOB_TITLES: ["Data Engineer", "Data Scientist", "Data Analyst", "Machine Learning Engineer"]
+HOST: "0.0.0.0"
+PORT: 7860

@@ -1,5 +1,0 @@
-LOCATION: Petaling 
-COMPANY: Adecco Staffing & Outsourcing Sdn Bhd 
-JOB TITLE: Database Administrator (DBA) 
-SALARY: RM 8,000 – RM 11,000 per month 
-DESCRIPTION: What's your expected monthly basic salary?
