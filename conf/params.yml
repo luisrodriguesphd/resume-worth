@@ -34,8 +34,9 @@ app_frontend:
     # Empower your job search with insights that put you a step ahead.
     jobs: ["Data Engineer", "Data Scientist", "Data Analyst", "Machine Learning Engineer"]
     messages:
-        job_title_not_found: "You must choose one of the roles in the Job Title section!"
+        job_title_not_found: "WARNING: You must choose one of the roles in the Job Title section!"
         too_short_resume: |
+            WARNING: Resume too short!
             There is no good match between resume and available job vacancies.
             We recommend that you submit an extended version of your resume.
         salary_not_found: |
