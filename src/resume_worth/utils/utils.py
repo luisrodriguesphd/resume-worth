@@ -19,6 +19,9 @@ def get_params():
 def load_embedding_model(model_name: str = "sentence-transformers/all-mpnet-base-v2"):
     """ Load a pretrained text embedding model"""
 
+    # Issue: HuggingFaceEmbeddings can not take trust_remote_code argument
+    # https://github.com/langchain-ai/langchain/issues/6080
+    # So, "nomic-ai/nomic-embed-text-v1.5" can't be used yet.
     embedding_model = HuggingFaceEmbeddings(
         model_name=model_name,
         model_kwargs={'device': 'cpu'},

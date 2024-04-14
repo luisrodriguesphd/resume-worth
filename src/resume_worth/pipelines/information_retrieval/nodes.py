@@ -24,7 +24,7 @@ with open(file_path, "r") as f:
 
 
 def retrieve_top_job_vacancies(job_title: str, resume: str, k: int=3):
-
+    """Function to retrieve the most similar job vacancies to a resume"""
 
     # For complex queries, use MongoDB-like operators:
     #   $gt, $gte, $lt, $lte, $ne, $eq, $in, $nin
@@ -48,21 +48,24 @@ def retrieve_top_job_vacancies(job_title: str, resume: str, k: int=3):
     return job_docs
 
 
-def get_vacancy_salary(doc: list[Document]):
+def get_vacancy_salary(doc: Document):
+    """Function to get the salary of a job vacancy"""
 
     salary = doc.metadata["salary"] 
 
     return salary
 
 
-def get_vacancy_description(doc: list[Document]):
+def get_vacancy_description(doc: Document):
+    """Function to get the description of a job vacancy"""
 
     description = doc.page_content
 
     return description
 
 
-def get_vacancy_url(doc: list[Document]):
+def get_vacancy_url(doc: Document):
+    """Function to get the URL of a job vacancy"""
 
     job_id = doc.metadata["id"] 
 

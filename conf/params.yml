@@ -3,9 +3,23 @@ ingestion_data_dir: ["data", "02_processed"]
 ingestion_metadata_dir: ["data", "02_processed", "metadata"]
 job_titles: ["Data Engineer", "Data Scientist", "Data Analyst", "Machine Learning Engineer"]
 
+
 # Embeddings
 embedding_model_name: "sentence-transformers/all-mpnet-base-v2"
 embedding_dir: ["data", "03_indexed"]
+
+
+# LLM / Text Generation
+model_id: "M4-ai/tau-1.8B" 
+# See instructions for parameters: https://www.ibm.com/docs/en/watsonx-as-a-service?topic=lab-model-parameters-prompting
+top_k: 30 
+top_p: 0.7
+temperature: 0.3
+max_new_tokens: 256
+# See instructions for the prompt: https://huggingface.co/spaces/Locutusque/Locutusque-Models/blob/main/app.py
+prompt_dir: ["data", "04_prompts"]
+promp_file: "prompt_template_for_explaning_why_is_a_good_fit.json"
+
 
 # app
 app_config:
@@ -15,6 +29,7 @@ app_backend:
     min_resume_size: 1000
 app_frontend:
     title: "ResumeWorth"
+    # Good description example: https://huggingface.co/spaces/sam-hq-team/sam-hq/blob/main/app.py
     description: |
         ### **Discover Your True Market Value and Optimize Your Earnings Potential!**
 
@@ -40,5 +55,6 @@ app_frontend:
             There is no good match between resume and available job vacancies.
             We recommend that you submit an extended version of your resume.
         salary_not_found: |
-            Unfortunately, at the moment, there is no good match between resume and available job vacancies.
-            We recommend that you improve your resume by adding more details of your experiences and skills.
+            Unfortunately, we are currently unable to infer a salary range for your resume.
+        active_job_not_found: |
+            Unfortunately, at the moment, we couldn't find active jobs that matches your resume.

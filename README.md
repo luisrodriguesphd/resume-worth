@@ -34,7 +34,7 @@ ResumeWorth utilizes a step-by-step process to analyze your professional backgro
 ## 3. Getting Started
 [Back to ToC](#toc)
 
-To begin using ResumeWorth, visit the [application](https://huggingface.co/spaces/luisrodriguesphd/resume-worth) deployed on **Hugging Face** and follow the on-screen instructions to enter your job title and upload your resume. The system will guide you through the process and provide you with valuable insights into your resume's market value and potential job opportunities.
+To begin using ResumeWorth, visit the [application](https://huggingface.co/spaces/luisrodriguesphd/resume-worth) hosted on **Hugging Face Spaces** and follow the on-screen instructions to enter your job title and upload your resume. The system will guide you through the process and provide you with valuable insights into your resume's market value and potential job opportunities.
 
 <a name="contributing"/></a>
 ## 4. Contributing
