@@ -13,6 +13,7 @@ chromadb
 # to generate text
 transformers 
 torch
+einops
 
 # to build the user infertafe
 gradio

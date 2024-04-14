@@ -67,6 +67,8 @@ deprecated==1.2.14
     # via
     #   opentelemetry-api
     #   opentelemetry-exporter-otlp-proto-grpc
+einops==0.7.0
+    # via -r requirements.in
 fastapi==0.110.1
     # via
     #   chromadb
