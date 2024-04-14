@@ -54,7 +54,7 @@ def run():
     )
 
     # Use share=True to create a public link to share. This share link expires in 72 hours.
-    app.launch(server_name=app_config['host'], server_port=app_config['port'], max_threads=8)
+    app.launch(server_name=app_config['host'], server_port=app_config['port'])
 
 
 if __name__ == "__main__":

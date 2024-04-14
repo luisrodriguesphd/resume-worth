@@ -15,6 +15,9 @@ ENV REQUIREMENTS_PATH=$REQUIREMENTS_PATH
 ARG HF_HOME=".cache/huggingface/hub"
 ENV HF_HOME=$HF_HOME
 
+ARG MPLCONFIGDIR=".config/matplotlib"
+ENV MPLCONFIGDIR=$MPLCONFIGDIR
+
 ARG ENTRYPOINT_PATH="./entrypoint.sh"
 ENV ENTRYPOINT_PATH=$ENTRYPOINT_PATH
 
@@ -26,10 +29,10 @@ RUN mkdir -p /code/&& \
 WORKDIR /code
 
 # Create a virtual environment in the directory /venv
-RUN python -m venv venv
+RUN python -m venv .venv
 
 #  Activate the virtual environment by adding it to the PATH environment variable
-ENV PATH="/venv/bin:$PATH"
+ENV PATH="/code/.venv/bin:$PATH"
 
 RUN apt update && \
     python -m ensurepip --upgrade && \
@@ -41,13 +44,18 @@ RUN pip install --no-cache-dir -r ./requirements.txt
 
 RUN mkdir -p $HF_HOME && \
     chmod -R 777 $HF_HOME && \
+    export HF_HOME=$HF_HOME && \
     export TRANSFORMERS_CACHE=$HF_HOME && \
-    export HF_HOME=$HF_HOME
+    mkdir -p $MPLCONFIGDIR && \
+    chmod -R 777 $MPLCONFIGDIR && \
+    export MPLCONFIGDIR=$MPLCONFIGDIR
 
 COPY . .
 
 RUN pip install -e . && \
-    python src/resume_worth/pipelines/data_indexing/pipeline.py && \
+    python src/resume_worth/pipelines/data_indexing/pipeline.py
+
+RUN python src/resume_worth/pipelines/text_generation/pipeline.py && \
     chmod +x $ENTRYPOINT_PATH
 
 ENTRYPOINT $ENTRYPOINT_PATH

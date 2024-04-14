@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "job",
+        "resume"
+    ],
+    "input_types": {},
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "<|im_start|>user\nExplain why the following RESUME is a good match for the presented JOB VACANCY.\nKeep your answer grounded in the facts of the RESUME and JOB VACANCY.\nWrite a maximum of three points in clear and concise language.\n\nRESUME: \n{resume}\n\nJOB VACANCY: \n{job}<|im_end|>\n<|im_start|>assistant\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
