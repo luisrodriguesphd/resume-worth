@@ -5,7 +5,13 @@ job_titles: ["Data Engineer", "Data Scientist", "Data Analyst", "Machine Learnin
 
 
 # Embeddings
-embedding_model_name: "sentence-transformers/all-mpnet-base-v2"
+embedding_model:
+    model_name: "nomic-ai/nomic-embed-text-v1.5"
+    model_kwargs:
+        device: "cpu" 
+        trust_remote_code: True
+    encode_kwargs:
+        normalize_embeddings: True
 embedding_dir: ["data", "03_indexed"]
 
 

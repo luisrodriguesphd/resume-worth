@@ -18,7 +18,7 @@ def salary_estimator(job_title: str, resume: str):
         salary_range = app_frontend['messages']['job_title_not_found']
 
     elif len(resume) < app_backend['min_resume_size']:
-        job_url = app_frontend['messages']['too_short_resume']
+        salary_range = app_frontend['messages']['too_short_resume']
     
     else:
         salary_range, job_url, job_description = retrieve_top_job_vacancy_info(job_title, resume)

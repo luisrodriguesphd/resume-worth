@@ -6,6 +6,7 @@ from langchain_community.vectorstores import Chroma
 
 
 def parse_documents(file_dir: str):
+    """Function to load and parse the job vacancy documents"""
 
     print("\n***** Loading Documents *****\n")
 
@@ -34,16 +35,17 @@ def parse_documents(file_dir: str):
     return docs
 
 
-def index_documents(docs: list[Document], persist_directory: str, embedding_model_name: str):
+def index_documents(docs: list[Document], persist_directory: str, embedding_model: dict):
+    """Function to embed and index the documents in Chroma vector database"""
 
     print("\n***** Indexing Data on a Vector Store *****\n")
 
-    print(f"-> Load a pretrained text embedding model {embedding_model_name}")
+    print(f"-> Load a pretrained text embedding model {embedding_model['model_name']}")
 
     # Load a pretrained text embedding model
-    embedding_function = load_embedding_model(embedding_model_name)
+    embedding_function = load_embedding_model(embedding_model['model_name'], embedding_model['model_kwargs'], embedding_model['encode_kwargs'])
 
-    print(f"-> Embedd documents and index in Chroma vector store")
+    print(f"-> Embed documents and index in Chroma vector store")
 
     # Create text embeddings and store in a vector database Chroma. For more options, see: 
     #   https://python.langchain.com/docs/modules/data_connection/vectorstores/

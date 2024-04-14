@@ -4,28 +4,32 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 
 def get_params():
+    """
+    Function to get the parameters.
+    It load and parse the parameters from params.yml file.
+    """
+
     params_path = os.path.join("conf", "params.yml")
     with open(params_path) as f:
         try:
             params = yaml.safe_load(f)
         except yaml.YAMLError as e:
             raise(e)
+    
     for k, v in params.items():
         if "_dir" in k.lower():
             params[k] = os.path.join(*params[k])
+
     return params 
 
 
-def load_embedding_model(model_name: str = "sentence-transformers/all-mpnet-base-v2"):
-    """ Load a pretrained text embedding model"""
+def load_embedding_model(model_name: str = "sentence-transformers/all-mpnet-base-v2", model_kwargs: dict={}, encode_kwargs: dict={}):
+    """Load a pretrained text embedding model"""
 
-    # Issue: HuggingFaceEmbeddings can not take trust_remote_code argument
-    # https://github.com/langchain-ai/langchain/issues/6080
-    # So, "nomic-ai/nomic-embed-text-v1.5" can't be used yet.
     embedding_model = HuggingFaceEmbeddings(
         model_name=model_name,
-        model_kwargs={'device': 'cpu'},
-        encode_kwargs={'normalize_embeddings': False}
+        model_kwargs=model_kwargs,
+        encode_kwargs=encode_kwargs,
     )
 
     return embedding_model

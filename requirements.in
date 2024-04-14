@@ -7,7 +7,7 @@ pandas
 # to build LLM Apps
 langchain
 langchain-community
-sentence-transformers
+sentence-transformers>=2.3.1
 chromadb
 
 # to generate text

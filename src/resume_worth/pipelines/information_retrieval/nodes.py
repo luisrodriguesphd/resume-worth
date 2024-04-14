@@ -6,13 +6,14 @@ from langchain.docstore.document import Document
 
 
 params = get_params()
-embedding_dir = params['embedding_dir']
-embedding_model_name = params['embedding_model_name']
 ingestion_metadata_dir = params['ingestion_metadata_dir']
+embedding_dir = params['embedding_dir']
+embedding_model = params['embedding_model']
 
-# Create a retriever based on the created vector db with the text embeddings
+
+# Load embeddings into Chroma from disk
 # See: https://python.langchain.com/docs/integrations/vectorstores/chroma
-embedding_function = load_embedding_model(embedding_model_name)
+embedding_function = load_embedding_model(embedding_model['model_name'], embedding_model['model_kwargs'], embedding_model['encode_kwargs'])
 vectordb = Chroma(persist_directory=embedding_dir, embedding_function=embedding_function)
 
 
