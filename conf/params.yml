@@ -39,19 +39,18 @@ app_frontend:
     description: |
         ### **Discover Your True Market Value and Optimize Your Earnings Potential!**
 
-        In today’s competitive job market, understanding your worth is paramount. 
-        ResumeWorth empowers you to unlock the true value of your professional experience and skills, 
-        ensuring you aim for the salary you truly deserve and write a resume that is a good fit for this. 
-        With an intricate blend of cutting-edge Artificial Intelligence system, and comprehensive market analysis, 
-        ResumeWorth stands as your personal salary advocate and resume improvement assistant.
+        In today's competitive job market, understanding your worth is paramount. 
+        ResumeWorth empowers you to unlock the true value of your professional experience and skills, ensuring you aim for the salary you truly deserve and write a resume that is a good fit for this. 
+        With an intricate blend of cutting-edge Artificial Intelligence system, comprehensive market analysis, and our resume-job match explanation feature, ResumeWorth stands as your personal salary advocate and resume improvement assistant.
 
         #### How It Works:
 
-        1. **Input Simplicity**: Begin your journey by entering your current job title and uploading your resume. Our user-friendly interface ensures a smooth start to discovering your market value.
-        2. **Advanced AI Analysis**: At the heart of ResumeWorth is a sophisticated large language model. This AI delves deep into your professional background, examining your experience, skills, and accomplishments with a fine-tooth comb. It doesn’t just read your resume; it understands it on a nuanced level.
-        3. **Semantic and Keyword-Based Searches**: Utilizing a dynamic combination of keyword-based and semantic similarity searches, our AI scours through an extensive database of current job vacancies. This dual approach ensures no stone is left unturned. Keyword searches pinpoint specific terms related to your skillset and experience, while semantic searches grasp the context and nuances of your career, matching you with vacancies that truly resonate with your professional narrative.
-        4. **Tailored Salary Range Estimation**: The culmination of this process is a personalized salary estimate. This isn’t just a number based on the role; it’s a reflection of the uniqueness of your resume, matched against the most suitable job vacancies, providing a salary range that accurately represents the value of your resume.
-        5. **Direct Opportunity Linkage**: In addition to receiving a tailored salary estimate, you are also provided with the URL to a job vacancy that closely aligns with your resume. This direct link to a potential job opportunity not only offers immediate value but also empowers you to explore new possibilities that are well-suited to your profile.
+        1. **Input Simplicity**:  Start by entering your job title and uploading your resume via our easy-to-use interface.
+        2. **Advanced AI Analysis**: Our AI leverages a Large Language Model (LLM) to analyze your professional background by analyzing your experience, skills, and accomplishments.
+        3. **Semantic and Keyword-Based Searches**:  Our AI uses both keyword and semantic searches to find job vacancies that match your skills and career context perfectly.
+        4. **Tailored Salary Range Estimation**: Receive a personalized salary estimate that reflects your unique skills and the job market, based on the best-matching job vacancies.
+        5. **Direct Opportunity Linkage**: Get direct links to job vacancies that align well with your resume, providing immediate career opportunities.
+        6. **Resume-Job Match Explanation**: Understand how your resume aligns with the recommended job vacancy through the explanation provided by our Retrieval-Augmented Generation (RAG).
     # Empower your job search with insights that put you a step ahead.
     jobs: ["Data Engineer", "Data Scientist", "Data Analyst", "Machine Learning Engineer"]
     messages:
