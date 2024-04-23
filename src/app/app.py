@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 from resume_worth.utils.utils import get_params, get_text_from_pdf
 from resume_worth.pipelines.information_retrieval.pipeline import retrieve_top_job_vacancy_info
@@ -47,12 +48,18 @@ demo = gr.Interface(
     fn=salary_estimator, 
     inputs=[
         gr.Radio(app_frontend['jobs'], label="Job Title"),
-        gr.File(file_count='single', file_types=['.pdf'], label="Resume PDF file", show_label=True,),
+        gr.File(file_count='single', file_types=['.pdf'], label="Resume PDF File", show_label=True,),
     ],
     outputs=[
         gr.Textbox(label="Salary Range Estimation", lines=1),
         gr.Textbox(label="Suitable Job Vacancy Sample", lines=1),
-        gr.Textbox(label="Why the Resume and the Job Match", lines=1),
+        gr.Textbox(label="Why the Resume and the Job Match", lines=10),
+    ],
+    examples=[
+        [
+            app_frontend['examples'][1]["job_title"], 
+            os.path.join(*app_frontend['examples'][1]["resume_path"])
+        ],
     ],
     title=app_frontend['title'],
     description=app_frontend['description'],
@@ -64,3 +71,4 @@ if __name__ == "__main__":
     # To see changes in real-time, instead of the python command, use: gradio src\app\app.py
     # Use share=True to create a public link to share. This share link expires in 72 hours.
     demo.launch(share=False, server_name=app_config['host'], server_port=app_config['port'])
+
