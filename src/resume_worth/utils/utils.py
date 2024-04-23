@@ -1,6 +1,7 @@
 import os
 import yaml
 from langchain_community.embeddings import HuggingFaceEmbeddings
+import fitz # imports the pymupdf library
 
 
 def get_params():
@@ -33,3 +34,13 @@ def load_embedding_model(model_name: str = "sentence-transformers/all-mpnet-base
     )
 
     return embedding_model
+
+
+def get_text_from_pdf(file_path: str):
+
+    doc = fitz.open(file_path) # open a document
+    text = ''
+    for idx, page in enumerate(doc): # iterate the document pages
+        text += page.get_text() # get plain text encoded as UTF-8
+    
+    return text

@@ -51,15 +51,18 @@ app_frontend:
         4. **Tailored Salary Range Estimation**: Receive a personalized salary estimate that reflects your unique skills and the job market, based on the best-matching job vacancies.
         5. **Direct Opportunity Linkage**: Get direct links to job vacancies that align well with your resume, providing immediate career opportunities.
         6. **Resume-Job Match Explanation**: Understand how your resume aligns with the recommended job vacancy through the explanation provided by our Retrieval-Augmented Generation (RAG).
-    # Empower your job search with insights that put you a step ahead.
     jobs: ["Data Engineer", "Data Scientist", "Data Analyst", "Machine Learning Engineer"]
     messages:
         job_title_not_found: "WARNING: You must choose one of the roles in the Job Title section!"
+        resume_file_not_found: "WARNING: You must upload a file with your resume!"
         too_short_resume: |
             WARNING: Resume too short!
-            There is no good match between resume and available job vacancies.
             We recommend that you submit an extended version of your resume.
         salary_not_found: |
             Unfortunately, we are currently unable to infer a salary range for your resume.
         active_job_not_found: |
             Unfortunately, at the moment, we couldn't find active jobs that matches your resume.
+    examples:
+        1: 
+            "job_title": "Data Scientist"
+            "resume_path": ["data", "01_raw", "resume_examples", "Luis_Rodrigues_Resume_20240421.pdf"]

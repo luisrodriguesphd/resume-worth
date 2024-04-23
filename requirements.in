@@ -18,6 +18,9 @@ einops
 # to build the user infertafe
 gradio
 
+# to read PDF files
+PyMuPDF
+
 # Autogenerate requirements.txt via pip-compile with Python 3.11 by the following command:
 #
 #    pip-compile -U --output-file=requirements.txt requirements.in
