@@ -1,4 +1,6 @@
 import os
+os.environ['HF_HOME'] = ".cache/huggingface"
+
 from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from langchain_core.prompts import PromptTemplate
@@ -10,20 +12,34 @@ import transformers
 transformers.logging.set_verbosity_error()
 
 
-@lru_cache(maxsize=None)
-def load_hf_text_generation_model_to_langchain(model_id:str='gpt2', top_k:int=50, top_p:float=0.95, temperature:float=0.4, max_new_tokens:int=1024):
+#@lru_cache(maxsize=None)
+def load_hf_text_generation_model_to_langchain(
+    model_name:str='gpt2', 
+    model_kwargs:dict={
+            'trust_remote_code': True,
+    },
+    generate_kwargs:dict={
+            'top_k': 50, 
+            'top_p': 0.95, 
+            'temperature': 0.4, 
+            'max_new_tokens': 1024,
+        }
+    ):
     """
     Function to load a text generation model hosted on Hugging Face to se used in LangChain.
     More info, see: https://python.langchain.com/docs/integrations/llms/huggingface_pipelines/
     """
 
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
-    model = AutoModelForCausalLM.from_pretrained(model_id)
+    print(f"-> Load a pretrained text embedding model {model_name}")
+
+    # https://huggingface.co/apple/OpenELM
+    tokenizer = AutoTokenizer.from_pretrained(model_name, **model_kwargs)
+    model = AutoModelForCausalLM.from_pretrained(model_name, **model_kwargs)
     
-    pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, 
+    pipe = pipeline("text-generation", model=model, tokenizer=tokenizer,
             return_full_text=False, do_sample=True, 
-            top_p=top_p, top_k=top_k, temperature=temperature, max_new_tokens=max_new_tokens, 
-            num_beams=1, repetition_penalty=1.1, num_return_sequences=1
+            **generate_kwargs,
+            num_beams=1, repetition_penalty=1.1, num_return_sequences=1,
         )
     
     hf = HuggingFacePipeline(pipeline=pipe)
