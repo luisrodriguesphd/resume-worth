@@ -11,11 +11,7 @@ from resume_worth.pipelines.text_generation.nodes import load_hf_text_generation
 
 
 params = get_params()
-model_id = params['model_id']
-top_p = params['top_p']
-top_k = params['top_k']
-temperature = params['temperature']
-max_new_tokens = params['max_new_tokens']
+generative_model = params['generative_model']
 prompt_dir = params['prompt_dir']
 promp_file = params['promp_file']
 
@@ -24,7 +20,7 @@ def generate_explanation_why_resume_for_a_job(resume: str, job: str):
 
     # Stage 1 - [cacheable] Load text generation model
 
-    text_generation_model = load_hf_text_generation_model_to_langchain(model_id, top_k, top_p, temperature, max_new_tokens)
+    text_generation_model = load_hf_text_generation_model_to_langchain(generative_model['model_name'], generative_model['model_kwargs'], generative_model['generate_kwargs'])
 
     # Stage 2 - [cacheable] Load text generation model
     
