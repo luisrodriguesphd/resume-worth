@@ -1,8 +1,11 @@
 import os
 os.environ['HF_HOME'] = ".cache/huggingface"
 
+from typing import Union
+from resume_worth.utils.utils import set_secrets
 from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 from langchain.prompts import load_prompt
 from functools import lru_cache
@@ -13,26 +16,71 @@ transformers.logging.set_verbosity_error()
 
 
 #@lru_cache(maxsize=None)
-def load_hf_text_generation_model_to_langchain(
-    model_name:str='gpt2', 
-    model_kwargs:dict={
-            'trust_remote_code': True,
-    },
-    generate_kwargs:dict={
-            'top_k': 50, 
-            'top_p': 0.95, 
-            'temperature': 0.4, 
-            'max_new_tokens': 1024,
-        }
+def load_text_generation_model(
+        model_provider:str='groq',
+        model_name:str='llama3-8b-8192', 
+        model_kwargs:dict={},
+        generate_kwargs:dict={
+                'temperature': 0.4,
+            },
+    ):
+    """Function to load a text generation model according to the provider."""
+
+    print(f"-> Load {model_name} text generation model from {model_provider}")
+
+    if model_provider=="huggingface":
+        return load_hf_text_generation_model_to_langchain(model_name, model_kwargs, generate_kwargs)
+
+    elif model_provider=="groq":
+        set_secrets()
+        return load_groq_text_generation_model_to_langchain(model_name, model_kwargs, generate_kwargs)
+        
+    else:
+        raise Exception("Sorry, the code has no support for this provider yet.")
+
+
+def load_groq_text_generation_model_to_langchain(
+        model_name:str='llama3-8b-8192',
+        model_kwargs:dict={
+                'top_k': 50, 
+                'top_p': 0.95, 
+                'max_new_tokens': 1024,
+            },
+        generate_kwargs:dict={ 
+                'temperature': 0.4,
+            }
     ):
     """
-    Function to load a text generation model hosted on Hugging Face to se used in LangChain.
+    Function to load a text generation model hosted on Groq to be used in LangChain.
+    More info, see: https://console.groq.com/docs/quickstart
+    """
+
+    groq_api_key = os.environ.get('GROQ_API_KEY', None)
+    if groq_api_key is None:
+        raise ValueError("GROQ_API_KEY is not set.")
+
+    groq = ChatGroq(model_name=model_name, model_kwargs=model_kwargs, **generate_kwargs, groq_api_key=groq_api_key)
+    
+    return groq
+
+
+def load_hf_text_generation_model_to_langchain(
+        model_name:str='gpt2', 
+        model_kwargs:dict={
+                'trust_remote_code': True,
+            },
+        generate_kwargs:dict={
+                'top_k': 50, 
+                'top_p': 0.95, 
+                'temperature': 0.4, 
+                'max_new_tokens': 1024,
+            }
+    ):
+    """
+    Function to load a text generation model hosted on Hugging Face to be used in LangChain.
     More info, see: https://python.langchain.com/docs/integrations/llms/huggingface_pipelines/
     """
 
-    print(f"-> Load a pretrained text embedding model {model_name}")
-
-    # https://huggingface.co/apple/OpenELM
     tokenizer = AutoTokenizer.from_pretrained(model_name, **model_kwargs)
     model = AutoModelForCausalLM.from_pretrained(model_name, **model_kwargs)
     
@@ -68,10 +116,10 @@ def load_langchain_prompt_template(promp_path: str):
     return prompt
 
 
-def create_langchain_chain(prompt: PromptTemplate, hf_text_generation: HuggingFacePipeline):
+def create_langchain_chain(prompt: PromptTemplate, text_generation_model: Union[HuggingFacePipeline, ChatGroq]):
     """
-    Create a chain by composing the HF text generation model with a LangChain prompt template.
+    Create a chain by composing the text generation model with a LangChain prompt template.
     More info, see: https://python.langchain.com/docs/integrations/llms/huggingface_pipelines/
     """
-    chain = prompt | hf_text_generation
+    chain = prompt | text_generation_model
     return chain
