@@ -1,3 +1,13 @@
+---
+title: Resume Worth
+emoji: 🤖
+colorFrom: pink
+colorTo: blue
+sdk: docker
+pinned: false
+license: apache-2.0
+---
+
 # ResumeWorth
 
 Discover Your True Market Value and Optimize Your Earnings Potential!
@@ -31,6 +41,12 @@ ResumeWorth utilizes a step-by-step process to analyze your professional backgro
 4. **Salary Estimation**: Receive a personalized salary range that represents your resume's value.
 5. **Job Matching**: Get direct links to job opportunities that match your profile.
 6. **Resume-Job Match Explanation**: Understand how your resume aligns with job opportunities through detailed explanations provided by our Retrieval-Augmented Generation (RAG) technology.
+
+In addition to the inference pipeline mentioned above, there are two additional pipelines: data indexing, which indexes job vacancies in a vector store, and data collection, which gathers job vacancy information from the most renowned job sites. The complete architecture of the platform is illustrated in the figure below.
+
+<p align="center">
+  <img src="./docs/images/ResumeWorth_Architecture.svg" alt="" width="500">
+</p>
 
 <a name="gettingstarted"/></a>
 ## 3. Getting Started
