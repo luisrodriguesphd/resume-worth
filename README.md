@@ -45,7 +45,7 @@ ResumeWorth utilizes a step-by-step process to analyze your professional backgro
 In addition to the inference pipeline mentioned above, there are two additional pipelines: data indexing, which indexes job vacancies in a vector store, and data collection, which gathers job vacancy information from the most renowned job sites. The complete architecture of the platform is illustrated in the figure below.
 
 <p align="center">
-  <img src="./docs/images/ResumeWorth_Architecture.svg" alt="" width="500">
+  <img src="./docs/images/ResumeWorth_Architecture.svg" alt="" width="650">
 </p>
 
 <a name="gettingstarted"/></a>
