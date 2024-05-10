@@ -4,6 +4,7 @@ os.environ['HF_HOME'] = ".cache/huggingface"
 import yaml
 from langchain_community.embeddings import HuggingFaceEmbeddings
 import fitz # imports the pymupdf library
+from functools import lru_cache
 
 
 def get_params():
@@ -24,6 +25,22 @@ def get_params():
             params[k] = os.path.join(*params[k])
 
     return params 
+
+@lru_cache(maxsize=None)
+def set_secrets():
+    """
+    Function to set the secrets.
+    It load the parameters from .env file and set as env vars.
+    """
+    params = get_params()
+
+    secrets_path = os.path.join(params['conf_dir'], params['secrets_file'])
+
+    if os.path.exists(secrets_path):
+        from dotenv import load_dotenv
+        _ = load_dotenv(secrets_path)
+    else:
+        print(f'The secret file {secrets_path} does not exist!')
 
 
 def load_embedding_model(model_name: str = "sentence-transformers/all-mpnet-base-v2", model_kwargs: dict={}, encode_kwargs: dict={}):

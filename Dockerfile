@@ -21,6 +21,9 @@ ENV MPLCONFIGDIR=$MPLCONFIGDIR
 ARG ENTRYPOINT_PATH="./entrypoint.sh"
 ENV ENTRYPOINT_PATH=$ENTRYPOINT_PATH
 
+# RUN --mount=type=secret,id=GROQ_API_KEY,mode=0444,required=true \
+#     echo "GROQ_API_KEY=$(cat /run/secrets/GROQ_API_KEY)"
+
 # Create the /code/ directory a ser permissions rwe
 RUN mkdir -p /code/&& \
     chmod -R 777 /code/
@@ -55,7 +58,6 @@ COPY . .
 RUN pip install -e . && \
     python src/resume_worth/pipelines/data_indexing/pipeline.py
 
-RUN python src/resume_worth/pipelines/text_generation/pipeline.py && \
-    chmod +x $ENTRYPOINT_PATH
+RUN chmod +x $ENTRYPOINT_PATH
 
 ENTRYPOINT $ENTRYPOINT_PATH
