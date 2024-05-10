@@ -7,6 +7,7 @@ pandas
 # to build LLM Apps
 langchain
 langchain-community
+langchain_groq
 sentence-transformers>=2.3.1
 chromadb
 

@@ -1,3 +1,8 @@
+# Conf
+conf_dir: ["conf"]
+secrets_file: ".env"
+
+
 # Data
 ingestion_data_dir: ["data", "02_processed"]
 ingestion_metadata_dir: ["data", "02_processed", "metadata"]
@@ -16,16 +21,15 @@ embedding_dir: ["data", "03_indexed"]
 
 
 # LLM / Text Generation
+# Suggestion: huggingface|M4-ai/tau-1.8B; groq|llama3-8b-8192
 # See instructions for parameters: https://www.ibm.com/docs/en/watsonx-as-a-service?topic=lab-model-parameters-prompting
 generative_model:
-    model_name: "M4-ai/tau-1.8B"
+    model_provider: "groq"
+    model_name: "llama3-8b-8192"
     model_kwargs:
-        trust_remote_code: True
-    generate_kwargs: 
-        top_k: 30 
         top_p: 0.7
+    generate_kwargs:
         temperature: 0.3
-        max_new_tokens: 256
 # See instructions for the prompt: https://huggingface.co/spaces/Locutusque/Locutusque-Models/blob/main/app.py
 prompt_dir: ["data", "04_prompts"]
 promp_file: "prompt_template_for_explaning_why_is_a_good_fit.json"
