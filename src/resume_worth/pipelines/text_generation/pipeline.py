@@ -7,7 +7,7 @@ This pipeline utilizes an LLM to explain why the retrieved job vacancy is a good
 
 import os
 from resume_worth.utils.utils import get_params
-from resume_worth.pipelines.text_generation.nodes import load_hf_text_generation_model_to_langchain, load_langchain_prompt_template, create_langchain_chain
+from resume_worth.pipelines.text_generation.nodes import load_text_generation_model, load_langchain_prompt_template, create_langchain_chain
 
 
 params = get_params()
@@ -20,7 +20,7 @@ def generate_explanation_why_resume_for_a_job(resume: str, job: str):
 
     # Stage 1 - [cacheable] Load text generation model
 
-    text_generation_model = load_hf_text_generation_model_to_langchain(generative_model['model_name'], generative_model['model_kwargs'], generative_model['generate_kwargs'])
+    text_generation_model = load_text_generation_model(generative_model['model_provider'], generative_model['model_name'], generative_model['model_kwargs'], generative_model['generate_kwargs'])
 
     # Stage 2 - [cacheable] Load text generation model
     
@@ -34,6 +34,9 @@ def generate_explanation_why_resume_for_a_job(resume: str, job: str):
     # Stage 4 - Generate the answer by involking the create chain
 
     answer = text_generation_chain.invoke({"resume": resume, "job": job})
+
+    if generative_model['model_provider']!="huggingface":
+        answer = answer.content
 
     return answer
 
