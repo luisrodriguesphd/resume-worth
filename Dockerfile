@@ -12,7 +12,7 @@ LABEL description="Discover your market value with ResumeWorth receiving a salar
 ARG REQUIREMENTS_PATH="./requirements.in"
 ENV REQUIREMENTS_PATH=$REQUIREMENTS_PATH
 
-ARG HF_HOME=".cache/huggingface/hub"
+ARG HF_HOME=".cache/huggingface"
 ENV HF_HOME=$HF_HOME
 
 ARG MPLCONFIGDIR=".config/matplotlib"
