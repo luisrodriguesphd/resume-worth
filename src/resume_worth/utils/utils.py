@@ -1,6 +1,4 @@
 import os
-os.environ['HF_HOME'] = ".cache/huggingface"
-
 import yaml
 from langchain_community.embeddings import HuggingFaceEmbeddings
 import fitz # imports the pymupdf library

@@ -1,6 +1,4 @@
 import os
-os.environ['HF_HOME'] = ".cache/huggingface"
-
 from typing import Union
 from resume_worth.utils.utils import set_secrets
 from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
